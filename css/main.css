@@ -15,18 +15,18 @@ p {
 }
 p a {
   /* text-decoration: underline */
-  color: #008AFF;
+  color: #fc7837;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 a {
-  color: #008AFF;
+  color: #fc7837;
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #fc7939;
 }
 blockquote {
   color: #808080;
@@ -90,7 +90,7 @@ img::-moz-selection {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #F5F5F5;
+  background: #fc7837;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -104,14 +104,15 @@ img::-moz-selection {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #404040;
+  color: #fff;
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #0085a1;
+  color: #ccc;
 }
 
 @media only screen and (min-width: 768px) {
@@ -243,7 +244,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #0085a1;
+  color: #fc7837;
 }
 
 .post-preview .post-title {
@@ -317,7 +318,7 @@ header.header-post .post-heading .post-subheading {
 
 @media only screen and (min-width: 768px) {
   header.header-page .page-heading h1 {
-    font-size: 80px;
+    font-size: 72px;
   }
 }
 
@@ -353,8 +354,8 @@ header.header-post .post-heading .post-subheading {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  background: #0085a1;
-  border: 1px solid #0085a1;
+  background: #fc7837;
+  border: 1px solid #000;
 }
 
 .pager {

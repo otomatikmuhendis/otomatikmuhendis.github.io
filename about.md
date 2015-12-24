@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: Hakkında
 permalink: /about/
 ---
 
-Some information about you!
+Bilişim sektöründe çalışan biri olarak çalışmalarım sırasında karşılaştığım sorunları ve bulduğum çözümleri, çeşitli uygulama yöntemlerini burada paylaşmayı düşünüyorum. İçerikler çeşitli programlama dillerinde olacak. Yazılım için bir programlama dilinde uzmanlaşılması ama diğer dillerde de bilgi sahibi olunması gerektiğine inanıyorum. Değişik teknolojiler üzerine tecrübelerimi hem aktarmak hem de kendime not tutmak istiyorum. Son zamanlarda elektronik ile uğraşmaya da başladım. Öğrendiklerimi yazarım.
 
-### More Information
+Başkalarının da gelip yazmasını istiyorum ama okuma oranı ne kadar düşükse, yazma oranı ondan katbekat daha düşük.
 
-A place to include any other types of information that you'd like to include about yourself.
+Bu arada evet sitenin ismi konusunda Otomatik Portakal filminden esinlenilmiştir.
 
-### Contact me
+### İletişim
 
-[email@domain.com](mailto:email@domain.com)
+[otomatikmuhendis@yahoo.com](mailto:otomatikmuhendis@yahoo.com)

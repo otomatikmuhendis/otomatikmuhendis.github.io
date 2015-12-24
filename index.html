@@ -1,7 +1,7 @@
 ---
 layout: page
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: Otomatik Mühendis
+subtitle: makineleşmeyi hızlandıran site
 ---
 
 <div class="posts-list">
@@ -18,12 +18,28 @@ subtitle: This is where I will tell my friends way too much about me
     </a>
 
     <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
+      {{ post.date | date: "%-d" }} 
+        {% assign m = post.date | date: "%m" %}
+        {% case m %}
+          {% when '01' %}Ocak
+          {% when '02' %}Şubat
+          {% when '03' %}Mart
+          {% when '04' %}Nisan
+          {% when '05' %}Mayıs
+          {% when '06' %}Haziran
+          {% when '07' %}Temmuz
+          {% when '08' %}Ağustos
+          {% when '09' %}Eylül
+          {% when '10' %}Ekim
+          {% when '11' %}Kasım
+          {% when '12' %}Aralık
+        {% endcase %} 
+        {{ post.date | date: "%Y" }} tarihinde {{ post.author }} tarafından yayınlandı
     </p>
   
     <div class="post-entry">
       {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
-	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Okumaya&nbsp;Devam&nbsp;Et]</a>
     </div>
   
    </article>
@@ -34,12 +50,12 @@ subtitle: This is where I will tell my friends way too much about me
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
   <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; DAHA YENİ YAZILAR</a>
   </li>
   {% endif %}
   {% if paginator.next_page %}
   <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">DAHA ESKİ YAZILAR &rarr;</a>
   </li>
   {% endif %}
 </ul>
