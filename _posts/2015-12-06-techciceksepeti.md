@@ -16,7 +16,6 @@ tags:
   - textile
 published: true
 subtitle: null
-date: ""
 ---
 
 Şu an çalıştığım şirketin Teknoloji departmanı için bir blog hazırlıyoruz ve içerikleri tüm departmandan kişiler oluştururken, editörlüğünü ben yürütüyorum. Ayrıca [@TechCicekSepeti](https://twitter.com/TechCicekSepeti) üzerinden duyurularını yapıyoruz.
