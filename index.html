@@ -8,7 +8,7 @@ subtitle: makineleşmeyi hızlandıran site
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-    {% if post.image %}
+    {% if post.image and post.image != "" %}
       <div class="featuredImg" style="background-image: url('{{ post.image | prepend: site.baseurl | replace: '//', '/' }}')"></div>
     {% endif %} 
 	  <h2 class="post-title">{{ post.title }}</h2>
