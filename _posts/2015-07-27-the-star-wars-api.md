@@ -1,17 +1,19 @@
 ---
-title: The Star Wars API
 author: Olcay Bayram
 layout: post
-permalink: /2015/07/27/the-star-wars-api/
-categories:
-  - Neler Yapıyorum?
-  - Yazılım
-tags:
+title: The Star Wars API
+permalink: "/2015/07/27/the-star-wars-api/"
+categories: "neler-yapiyorum"
+tags: 
   - api
   - github
   - star wars
   - swapi
+published: true
+subtitle: null
+image: ""
 ---
+
 <a href="http://phalt.co/" target="_blank">Paul Hallett</a> 2014 Aralık ayında Star Wars evreni için bir veritabanı oluşturuyor ve bunu <a title="The Star Wars API" href="https://swapi.co/" target="_blank">SWAPI</a> adında bir API ile paylaşıyor.
 
 Kendi duyurduğu şekilde aktarmak gerekirse; Şimdiye kadar aradığınız Star Wars&#8217;a ait tüm bilgiler bulunuyor. Altı filmde yer alan gezegenler, uzay gemileri, araçlar, insanlar, filmler ve canlı türleri. 7 ay içerisinde sunucuya 749.239 adet istek iletilmiş. Bu da demek oluyor ki şu an bunu kullanan uygulamalar var.
