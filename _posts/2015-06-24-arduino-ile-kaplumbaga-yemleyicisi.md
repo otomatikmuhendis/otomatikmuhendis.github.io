@@ -1,17 +1,19 @@
 ---
-title: Arduino ile Kaplumbağa Yemleyicisi
 author: Olcay Bayram
 layout: post
-permalink: /2015/06/24/arduino-ile-kaplumbaga-yemleyicisi/
-categories:
-  - Sistem
-  - Yazılım
-tags:
+title: Arduino ile Kaplumbağa Yemleyicisi
+permalink: "/2015/06/24/arduino-ile-kaplumbaga-yemleyicisi/"
+categories: "neler-yapiyorum"
+tags: 
   - arduino
   - arduino yazılım
   - lcd
   - test
+published: true
+subtitle: null
+image: ""
 ---
+
 Çıkacağım uzun tatil sebebiyle kablumbağaları otomatik olarak yemleyecek bir makina yapmaya karar verdim. Daha önceden almış olduğum <a href="http://www.robotistan.com/Orjinal-Arduino-Super-Baslangic-Seti-Rev3,PR-954.html" target="_blank">Arduino kiti</a> bu iş için biçilmiş kaftandı.
 
 Arduino nedir diye merak ediyorsanız sizi [şu yazıya][1] alalım.
@@ -24,13 +26,12 @@ Arduino nedir diye merak ediyorsanız sizi [şu yazıya][1] alalım.
 
 Ayrıca süre aralığını elle dinamik olarak yönetebilmeyi düşündüm ama bunun fazladan efor olacağını düşünerek listemden çıkardım.
 
-<!--more-->
-
 Yemi dökebilmek için arduinoya bağladığım servo motorun hareketli kısmına bir yem kutusu yapıştırdım. Servo motor kod ve şema bilgilerini <a href="http://www.arduino.cc/en/Tutorial/Sweep" target="_blank">şu adreste</a> görebilirsiniz. Daha sonra sistemi test etmemizi sağlayacak <a href="http://www.arduino.cc/en/Tutorial/Button" target="_blank">butonun bağlantısı</a>nı gerçekleştirdim. Son olarak bilgilendirme mesajları için <a href="http://www.arduino.cc/en/Tutorial/LiquidCrystal" target="_blank">LCD ekranı</a> bağladım. Ekranı ayrıca kod içerisinde de görebileceğiniz gibi komik mesajlar için de kullandım.
 
-Bağlantıları tamamladıktan devre tahtası bu hale geldi;<figure id="attachment_232" style="width: 604px" class="wp-caption aligncenter">
+Bağlantıları tamamladıktan devre tahtası bu hale geldi;
 
-[<img class="wp-image-232 size-large" src="http://i2.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema-1024x579.png?fit=604%2C342" alt="Tüm bağlantıları tamamladıktan sonra devre tahtası" srcset="http://i0.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema.png?resize=300%2C170 300w, http://i0.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema.png?resize=1024%2C579 1024w, http://i0.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema.png?w=1573 1573w" sizes="(max-width: 604px) 100vw, 604px" data-recalc-dims="1" />][2]<figcaption class="wp-caption-text">Tüm bağlantıları tamamladıktan sonra devre tahtası</figcaption></figure> 
+[![](/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema-604x270.png)](/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema.png)
+Tüm bağlantıları tamamladıktan sonra devre tahtası 
 
 Artık yazılım tarafına geçebiliriz. Kodları yorum satırlarıyla yerinde inceleyelim.
 
