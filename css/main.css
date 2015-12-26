@@ -259,7 +259,7 @@ footer .theme-by {
 .post-preview .post-meta,
 .post-heading .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 16px;
   font-style: italic;
   margin: 0 0 10px;
 }
@@ -412,4 +412,18 @@ header.header-post .post-heading .post-subheading {
   background-repeat: no-repeat;
   background-position-x: 50%;
   margin-bottom: 10px;
+}
+.post-author{
+  float:left;
+  
+}
+.post-author-row{
+  background-color: #F5F5F5;
+  margin-bottom: 40px;
+      border-top: 1px #EAEAEA solid;
+          border-bottom: 1px #EAEAEA solid;
+}
+.post-author-avatar{
+  width: 150px;
+  max-height: 150px;
 }

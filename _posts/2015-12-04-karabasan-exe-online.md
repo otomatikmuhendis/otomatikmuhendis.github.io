@@ -11,6 +11,7 @@ tags:
   - JavaScript
   - karabasan
   - msdos
+date: "2015-12-04"
 ---
 TL;DR 90'lı yılların fütursuz yapay zekası şimdi internette: [Karabasan.exe Online](http://bilgisayar.otomatikmuhendis.com/)
 

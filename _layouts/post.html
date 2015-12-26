@@ -27,7 +27,16 @@ layout: default
           {% when '12' %}Aralık
         {% endcase %} 
         {{ page.date | date: "%Y" }}
-         tarihinde {{ page.author }} tarafından yayınlandı</span>
+         tarihinde {{ page.author }} tarafından yayınlandı.
+         <br/>
+         {% if page.tags %}
+        <span class="glyphicon glyphicon-tags" title="Etiketler"></span>  {{ page.tags | join: ", " }}
+        {% endif %}
+        {% if page.categories %}
+        <span class="glyphicon glyphicon-folder-open" title="Kategori"></span>  {{ page.categories | join: ", " }}
+        {% endif %}
+
+         </span>
       </div>
      </div>
   </div>
@@ -40,6 +49,25 @@ layout: default
 	</div>
   </div>
 </article>
+
+{% if page.author %}
+<div class="footer-post">
+  <div class="row post-author-row">
+    {% assign author = site.data.authors[page.author] %}
+    <div class="col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-1 post-author">
+      <img src="{{ author.avatar | prepend: "/img" }}" title="{{ page.author }}" alt="{{ page.author }}" class="post-author-avatar" />
+    </div>
+    <div class="col-lg-6 col-md-8">
+      <div class="post-heading">
+        <h4 class="post-subheading">Yazar Hakkında</h4>
+        <div class="post-meta">
+          <a rel="author" href="{{ author.url }}" title="{{ page.author }}"> {{ page.author }}</a> {{ author.description }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
 
 <div class="row">
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">

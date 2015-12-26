@@ -128,13 +128,37 @@ prose:
           label: "Subtitle"
           placeholder: "A description of your post."
           alterable: true
-      - name: "date"
+      - name: "author"
+        field:
+          element: "hidden"
+          value: "Olcay Bayram"
+      - name: "image"
         field:
           element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
+          label: "Image"
+          help: "Featured image for index."
+          placeholder: "Image url."
           alterable: true
+      - name: "categories"
+        field:
+          element: "select"
+          label: "Category"
+          alterable: true
+          options:
+            - name: 'Neler Yapıyorum?'
+              value: 'neler-yapiyorum'
+            - name: 'Yazılım'
+              value: 'yazilim'
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          alterable: true
+          options:
+            - name: 'javascript'
+              value: 'javascript'
+            - name: 'msdos'
+              value: 'msdos'
       - name: "published"
         field:
           element: "checkbox"
