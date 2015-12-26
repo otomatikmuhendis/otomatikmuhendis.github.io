@@ -30,7 +30,7 @@ Yemi dökebilmek için arduinoya bağladığım servo motorun hareketli kısmın
 
 Bağlantıları tamamladıktan devre tahtası bu hale geldi;
 
-[![](/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema-604x270.png)](/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema.png)
+[![](/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema-604x270.png)][2]
 Tüm bağlantıları tamamladıktan sonra devre tahtası 
 
 Artık yazılım tarafına geçebiliriz. Kodları yorum satırlarıyla yerinde inceleyelim.
