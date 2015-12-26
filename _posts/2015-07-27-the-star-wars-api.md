@@ -11,7 +11,7 @@ tags:
   - swapi
 published: true
 subtitle: null
-image: ""
+image: starwars.jpg
 ---
 
 <a href="http://phalt.co/" target="_blank">Paul Hallett</a> 2014 Aralık ayında Star Wars evreni için bir veritabanı oluşturuyor ve bunu <a title="The Star Wars API" href="https://swapi.co/" target="_blank">SWAPI</a> adında bir API ile paylaşıyor.
