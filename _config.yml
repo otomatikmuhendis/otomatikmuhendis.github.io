@@ -138,6 +138,7 @@ prose:
           label: "Image"
           help: "Featured image for index."
           placeholder: "Image url."
+          value: null
           alterable: true
       - name: "categories"
         field:
@@ -146,9 +147,7 @@ prose:
           alterable: true
           options:
             - name: 'Neler Yapıyorum?'
-              value: 'neler-yapiyorum'
             - name: 'Yazılım'
-              value: 'yazilim'
       - name: "tags"
         field:
           element: "multiselect"
