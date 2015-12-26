@@ -31,11 +31,13 @@ Yemi dökebilmek için arduinoya bağladığım servo motorun hareketli kısmın
 Bağlantıları tamamladıktan devre tahtası bu hale geldi;
 
 [![](/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema-604x270.png)][2]
+
 Tüm bağlantıları tamamladıktan sonra devre tahtası 
 
 Artık yazılım tarafına geçebiliriz. Kodları yorum satırlarıyla yerinde inceleyelim.
 
-<pre class="brush: cpp; title: ; notranslate" title="">// LCD ekran ve Servo motor için ihtiyacimiz olan
+{% highlight cpp linenos %}
+// LCD ekran ve Servo motor için ihtiyacimiz olan
 // kütüphaneleri ekliyoruz.
 #include &lt;LiquidCrystal.h&gt;
 #include &lt;Servo.h&gt;
@@ -202,7 +204,7 @@ void lcdClear() {
  lcd.clear();
  digitalWrite(LCD_LIGHT_PIN, LOW);
 }
-</pre>
+{% endhighlight %}
 
 Sonuç olarak böyle bir sistem ortaya çıktı.
 
