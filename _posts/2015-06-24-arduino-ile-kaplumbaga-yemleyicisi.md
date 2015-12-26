@@ -206,7 +206,7 @@ void lcdClear() {
 
 Sonuç olarak böyle bir sistem ortaya çıktı.
 
-[<img class="aligncenter size-large wp-image-231" src="http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_is_basinda-1024x768.jpg?fit=604%2C453" alt="arduino kaplumbağa yemleyici iş başında" srcset="http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_is_basinda.jpg?resize=300%2C225 300w, http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_is_basinda.jpg?resize=1024%2C768 1024w" sizes="(max-width: 604px) 100vw, 604px" data-recalc-dims="1" />][3]
+[![](/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_is_basinda-604x270.jpg)][3]
 
 Pilin ömrünü düşünerek LCD ekranı çıkarttım. Ama daha önemli bir noktayı unutuyordum. **TEST!** Sadece duman testini yaptığım bu sistemi 1 hafta boyunca kaplumbağaları yemlesin diye bıraktım. Haftanın ortasında aşırı beslemeden dolayı yenememiş yemler suyu balçık kıvamına sokmuş ve sağolsun çalışma arkadaşlarım kaplumbağaların imdadına yetişmişler.
 
