@@ -1,23 +1,28 @@
 ---
-title: Ex Machina
 author: Olcay Bayram
 layout: post
-permalink: /2015/06/20/ex-machina/
-categories:
-  - Yazılım
-tags:
+title: Ex Machina
+permalink: "/2015/06/20/ex-machina/"
+categories: yazilim
+tags: 
   - ex machina
   - film
   - hacker
   - python
+published: true
+subtitle: null
+image: ""
 ---
-[Ex Machina][1] filmini izleyenler bilir bir sahnede ekranda şöyle bir kod görülüyor.<figure id="attachment_249" style="width: 636px" class="wp-caption aligncenter">
 
-[<img class="wp-image-249 size-full" src="http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/1261624605864184746.jpg?fit=604%2C436" alt="ex machina hacker kodları" srcset="http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/1261624605864184746.jpg?resize=300%2C217 300w, http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/1261624605864184746.jpg?w=636 636w" sizes="(max-width: 636px) 100vw, 636px" data-recalc-dims="1" />][2]<figcaption class="wp-caption-text">ex machina hacker kodları</figcaption></figure> 
+[Ex Machina][1] filmini izleyenler bilir bir sahnede ekranda şöyle bir kod görülüyor.
 
-Genelde filmlerde kargacık burgacık saçmalıklardan, hatta ekranda anlamsızca dönen küplerin olduğu <a href="https://www.youtube.com/watch?v=pe6gGUR3Ga4" target="_blank">hacker filmleri</a>nden dolayı bunda da kodların bir sonuca götürmeyeceğini düşünebiliriz. Resimde ki kodları temize çektiğimizde aşağıdaki, derlenebilir Python kodları çıkıyor.<!--more-->
+[![ex machina hacker kodları](/wp-content/uploads/2015/06/1261624605864184746.jpg)][2]
 
-<pre class="brush: python; title: ; notranslate" title="">#BlueBook code decryption
+_ex machina hacker kodları_
+
+Genelde filmlerde kargacık burgacık saçmalıklardan, hatta ekranda anlamsızca dönen küplerin olduğu <a href="https://www.youtube.com/watch?v=pe6gGUR3Ga4" target="_blank">hacker filmleri</a>nden dolayı bunda da kodların bir sonuca götürmeyeceğini düşünebiliriz. Resimde ki kodları temize çektiğimizde aşağıdaki, derlenebilir Python kodları çıkıyor.
+
+{% highlight python linenos %}#BlueBook code decryption
 
    import sys
    def sieve(n):
@@ -43,13 +48,13 @@ Genelde filmlerde kargacık burgacık saçmalıklardan, hatta ekranda anlamsızc
        sys.stdout.write(str(prime(code[i],x)-key[i]))    
 
 print
-</pre>
+{% endhighlight %}
 
-Bu kodu Python2.7 derleyicisinde çalıştırdığımızda ise sonuç `<abbr title="International Standard Book Number / Uluslararası Standart Kitap Numarası">ISBN</abbr> = 9780199226559` çıkıyor.
+Bu kodu Python2.7 derleyicisinde çalıştırdığımızda ise sonuç `ISBN = 9780199226559` çıkıyor.
 
 Bu da *<a href="http://www.amazon.com/Embodiment-inner-life-Cognition-Consciousness/dp/0199226555" target="_blank">Embodiment and the inner life: Cognition and Consciousness in the Space of Possible Minds</a>* kitabına karşılık geliyor.
 
 Kaynak: <a href="http://moviecode.tumblr.com/" target="_blank">Source Code in TV and Films</a>
 
  [1]: http://exmachina-movie.com/
- [2]: http://i2.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/exmachina_ekran.jpg
+ [2]: http://otomatikmuhendis.com/wp-content/uploads/2015/06/exmachina_ekran.jpg
