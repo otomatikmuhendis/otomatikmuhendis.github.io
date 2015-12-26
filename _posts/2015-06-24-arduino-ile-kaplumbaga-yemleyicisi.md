@@ -39,8 +39,8 @@ Artık yazılım tarafına geçebiliriz. Kodları yorum satırlarıyla yerinde i
 {% highlight cpp linenos %}
 // LCD ekran ve Servo motor için ihtiyacimiz olan
 // kütüphaneleri ekliyoruz.
-#include &lt;LiquidCrystal.h&gt;
-#include &lt;Servo.h&gt;
+#include <LiquidCrystal.h>
+#include <Servo.h>
 
 // Değişkenlerin tanımlanması ve sabitlerin atanması
 // (çeşitli atama yöntemleri uygulanmıştır)
@@ -129,7 +129,7 @@ void setup() {
 // Senkron yapıdadır.
 void loop() {
  // Sayaç belirli süreyi geçmiş ise beslemeye başlanır.
- if(millis() - sayac &gt; sure) {
+ if(millis() - sayac > sure) {
  // Sayaç çalışma süresiyle eşitlenir.
  sayac = millis(); 
 
@@ -159,7 +159,7 @@ void feed() {
  String satir1 = mesajlar[random(0, mesajlarLen)];
  String satir2 = "";
 
- if(satir1.length() &gt; 16){
+ if(satir1.length() > 16){
  satir2 = satir1.substring(16, 32);
  satir1 = satir1.substring(0, 16);
  }
