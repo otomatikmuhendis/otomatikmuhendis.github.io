@@ -11,7 +11,7 @@ tags:
   - test
 published: true
 subtitle: null
-image: ""
+image: /img/arduino_ide.png
 ---
 
 Çıkacağım uzun tatil sebebiyle kablumbağaları otomatik olarak yemleyecek bir makina yapmaya karar verdim. Daha önceden almış olduğum <a href="http://www.robotistan.com/Orjinal-Arduino-Super-Baslangic-Seti-Rev3,PR-954.html" target="_blank">Arduino kiti</a> bu iş için biçilmiş kaftandı.
