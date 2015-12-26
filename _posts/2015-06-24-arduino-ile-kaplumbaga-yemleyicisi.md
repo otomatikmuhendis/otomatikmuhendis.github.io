@@ -213,5 +213,5 @@ Pilin ömrünü düşünerek LCD ekranı çıkarttım. Ama daha önemli bir nokt
 Kısaca test önemli!
 
  [1]: http://otomatikmuhendis.com/2015/06/13/arduino-nedir/
- [2]: http://i0.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema.png
- [3]: http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_is_basinda.jpg
+ [2]: http://otomatikmuhendis.com/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema.png
+ [3]: http://otomatikmuhendis.com/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_is_basinda.jpg
