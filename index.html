@@ -37,7 +37,7 @@ subtitle: makineleşmeyi hızlandıran site
           {% when '11' %}Kasım
           {% when '12' %}Aralık
         {% endcase %} 
-        {{ post.date | date: "%Y" }} tarihinde {{ post.author }} tarafından yayınlandı.
+        {{ post.date | date: "%Y" }} tarihinde {{ post.author }} tarafından yayınlandı. <a href="{{ post.url | prepend: site.url }}#disqus_thread">0 yorum</a> yapıldı.
     </p>
   
     <div class="post-entry">
@@ -63,3 +63,6 @@ subtitle: makineleşmeyi hızlandıran site
   {% endif %}
 </ul>
 {% endif %}
+
+
+<script id="dsq-count-scr" src="//otomatikmuhendis.disqus.com/count.js" async></script>
