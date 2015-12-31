@@ -34,9 +34,11 @@ Artık ayakta olan bu sunucu üzerinde yeni bir cache oluşturabiliriz. Aşağı
 
 Oluşturduğumuz cache bilgilerini aşağıdaki komut ile görüntüleyebiliriz.
 
-`get-cacheconfig appFabricCache`<figure id="attachment_148" style="width: 668px" class="wp-caption aligncenter">
+`get-cacheconfig appFabricCache`
 
-[<img src="http://i0.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step5.png?fit=604%2C484" alt="Şu ana kadar çalıştırdığımız komutların görüntüsü" class="size-full wp-image-148" srcset="http://i0.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step5.png?resize=300%2C240 300w, http://i0.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step5.png?w=668 668w" sizes="(max-width: 668px) 100vw, 668px" data-recalc-dims="1" />][2]<figcaption class="wp-caption-text">Şu ana kadar çalıştırdığımız komutların görüntüsü</figcaption></figure> 
+![Komutlar](/wp-content/uploads/2014/10/Step5.png)
+
+Şu ana kadar çalıştırdığımız komutların görüntüsü
 
 Cache hakkında daha fazla bilgi alabilmek için kullanabileceğimiz komutlar;
 
@@ -52,18 +54,18 @@ Derleme hatası alıyorsanız, **Microsoft.ApplicationServer.Caching.Core** ve *
 
 Başarılı bir şekilde derlenen projenin oluşturduğu sayfa görünümü şu şekilde olacaktır;
 
-<a href="http://otomatikmuhendis.com/2014/10/16/appfabric-uzerinde-cache-olusturma-ve-erisimi/step6/" rel="attachment wp-att-149"><img src="http://i2.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step6.png?fit=568%2C332" alt="Step6" class="aligncenter size-full wp-image-149" srcset="http://i2.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step6.png?resize=300%2C175 300w, http://i2.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step6.png?w=568 568w" sizes="(max-width: 568px) 100vw, 568px" data-recalc-dims="1" /></a>
+![Sayfa görünümü](/wp-content/uploads/2014/10/Step6.png)
 
 Proje içeriğindeki kodların açıklamaları;
 
 CacheUtil sınıfı cache bağlantımızı gerçekleştiren GetCache() metodunu içermektedir.
 
-<pre class="brush: csharp; title: ; notranslate" title="">using Microsoft.ApplicationServer.Caching;
+{% highlight csharp linenos %}using Microsoft.ApplicationServer.Caching;
 using System.Collections.Generic;
 
-/// &lt;summary&gt;
-/// Summary description for Cache
-/// &lt;/summary&gt;
+/// <summary>
+/// Cache aygıtı
+/// </summary>
 public class CacheUtil
 {
   private static DataCacheFactory _factory = null;
@@ -79,7 +81,7 @@ public class CacheUtil
       //-------------------------
 
       //1 cache sunucusu için liste tanımlıyoruz
-      List&lt;DataCacheServerEndpoint&gt; servers = new List&lt;DataCacheServerEndpoint&gt;(1);
+      List<DataCacheServerEndpoint> servers = new List<DataCacheServerEndpoint>(1);
 
       //Cache sunucusunun parametrelerini set ediyoruz 
       //  Parameter 1 = host adı
@@ -107,13 +109,13 @@ public class CacheUtil
     return _cache;
   }
 }
-</pre>
+{% endhighlight %}
 
 Kendi oluşturduğum cache adını özellikle verdiğime dikkat ediniz. Burada kendi oluşturduğunuz cache adını yazabilirsiniz.
 
-Cache&#8217;i yönetmek için aşağıdaki metodları kullanabilirsiniz;
+Cache'i yönetmek için aşağıdaki metodları kullanabilirsiniz;
 
-<pre class="brush: csharp; title: ; notranslate" title="">//Ekleme
+{% highlight csharp linenos %}//Ekleme
 m_cache.Add(orderid, order);
 
 //Getirme
@@ -121,11 +123,10 @@ Order order = (Order)m_cache.Get(orderid);
 
 //Güncelleme
 m_cache.Put(orderid, order);
-</pre>
+{% endhighlight %}
 
 Böylece kurmuş olduğumuz sunucuyu nasıl kullanabileceğimizi görmüş olduk. Bundan sonra yapılması gereken cache&#8217;e ekleme yapan bir servis yazmaktır. Her güncellemede de cache&#8217;i güncellemesi gerekecektir. Ondan sonra istediğimiz yerden bu sunucuya ulaşarak rahatlıkla ve hızla verileri çekebiliriz.
 
 Yorumlarınızı okumaktan ve sorularınızı yanıtlamaktan mutluluk duyarım.
 
  [1]: http://otomatikmuhendis.com/2014/10/15/appfabric-kurulumu-ayarlari-ve-kullanimi/
- [2]: http://i0.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step5.png

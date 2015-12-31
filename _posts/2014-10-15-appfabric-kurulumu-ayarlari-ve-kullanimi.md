@@ -22,7 +22,7 @@ Eğer Windows 7 kullanıyorsanız <a href="http://go.microsoft.com/fwlink/?LinkI
 
 Aşağıdaki gibi tüm özelliklerin kurulumunu istiyoruz.
 
-[<img class="aligncenter size-full wp-image-140" src="http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step1.png?fit=474%2C346" alt="Step1" data-recalc-dims="1" />][1]
+![Birinci adım](/wp-content/uploads/2014/10/Step1.png)
 
 Ön şartlar (Prerequisities) ekranında bilgisayarınızda kurulu olması gereken yazılımları kontrol edecektir. Bunlar hakkında yardımı uygulamanın kurulum dökümanında bulabilirsiniz. Bende Microsoft FTP Service&#8217;in durdurulması gerektiğini söylüyordu. Konsolda &#8220;`net stop ftpsvc`&#8221; yazarak veya Control Panel > Administrative Tools > Services üzerinden durdurabilirsiniz. Gerekli değişiklikleri yaptıktan sonra Refresh butonu ile tekrar kontrol etmesini sağlayınız.
 
@@ -30,19 +30,19 @@ Kurulum başarıyla tamamlandıktan sonra ayarlarını yapabilmemiz için Config
 
 Hosting Service yapılandırmasını geçerek Caching Service ile başlayabilirsiniz. Servis ayarlarını kaydetmek için veritabanı veya bir XML dosyası göstermenizi isteyecek. Biz aşağıdaki şekilde Configure butonuyla açılan ekranda yeni bir isim yazarak ve ilgili iki kutuyu seçili hale getirerek yeni bir veritabanı oluşturmasını sağlıyoruz.
 
-[<img src="http://i0.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step2-300x224.png?fit=300%2C224" alt="Step2" class="aligncenter size-medium wp-image-141" data-recalc-dims="1" />][2]
+[![İkinci adım](/wp-content/uploads/2014/10/Step2-300x224.png)](/wp-content/uploads/2014/10/Step2.png)
 
-<a href="http://otomatikmuhendis.com/2014/10/15/appfabric-kurulumu-ayarlari-ve-kullanimi/step3/" rel="attachment wp-att-142"><img src="http://i2.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step3-300x224.png?fit=300%2C224" alt="Step3" class="aligncenter size-medium wp-image-142" data-recalc-dims="1" /></a>
+[![Üçüncü adım](/wp-content/uploads/2014/10/Step3-300x224.png)](/wp-content/uploads/2014/10/Step3.png)
 
 Not: Henüz ayarları ilk kez yaptığınız için sizin ekranınızda &#8220;This machine is not a member of an AppFabric Caching cluster.&#8221; yazabilir. Ayarları başarıyla tamamladıktan sonra bu sihirbazı tekrar çalıştırırsanız mesajın değiştiğini görebilirsiniz.
 
-[<img class="aligncenter size-medium wp-image-143" src="http://i0.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step4-300x152.png?fit=300%2C152" alt="Step4" srcset="http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step4.png?resize=300%2C152 300w, http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step4.png?w=640 640w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />][3]
+[![Dördüncü adım](/wp-content/uploads/2014/10/Step4-300x152.png)](/wp-content/uploads/2014/10/Step4.png)
 
 Şimdi cache yönetimi için PowerShell&#8217;e ilgili modülün yüklenmesi gerekiyor. Bunu yapmak için Başlat menüsü > AppFabric > Caching Administration Windows PowerShell aracını kullanacağız. Bu konsol uygulamasını Administrator olarak çalıştırırsak gerekli ayarlamaları otomatik olarak yapacaktır.
 
 İlk çalıştırıldığında &#8220;Failed to connect to hosts in the cluster&#8221; hatası ile karşılaşılabilir. Bunun sebebi AppFabric&#8217;in sunucu içerisinde bile Remote Registry servisini kullanmasıdır. Bu servisi konsolda &#8220;`net start RemoteRegistry`&#8221; yazarak veya Control Panel > Administrative Tools > Services üzerinden başlatabilirsiniz.
 
-Artık aşağıdaki komut ile cluster&#8217;ı başlatabilir ve çalışmakta olan servisleri görebiliriz.
+Artık aşağıdaki komut ile cluster'ı başlatabilir ve çalışmakta olan servisleri görebiliriz.
 
 `Start-CacheCluster`
 
@@ -54,8 +54,4 @@ Diğer komutlar hakkında bilgi almak için ise şunu yazabilirsiniz;
 
 `get-command *cache*`
 
-Sonuç; AppFabric kurulumunu ve ayarlanmasını gördük ve kullanımına giriş yapmış olduk. Daha sonraki yazıda cache oluşturulması ve uygulamalarımızdan bu cache&#8217;e nasıl ulaşacağımızı işleyeceğiz.
-
- [1]: http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2014/10/Step1.png
- [2]: http://otomatikmuhendis.com/2014/10/15/appfabric-kurulumu-ayarlari-ve-kullanimi/step2/
- [3]: http://otomatikmuhendis.com/2014/10/15/appfabric-kurulumu-ayarlari-ve-kullanimi/step4/
+Sonuç; AppFabric kurulumunu ve ayarlanmasını gördük ve kullanımına giriş yapmış olduk. Daha sonraki yazıda cache oluşturulması ve uygulamalarımızdan bu cache'e nasıl ulaşacağımızı işleyeceğiz.

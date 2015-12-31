@@ -20,7 +20,7 @@ RabbitMQ, Unix üzerine Erlang ile yazılmış mesaj kuyruğu sistemidir. MSMQ'd
 
 Öncelikle Erlang framework'ü makinanızda yüklü olmalı. Uygun versiyonu <a href="http://www.erlang.org/download.html" target="_blank">Erlang/OTP indirme sayfası</a>ndan bulabilirsiniz. Erlang kurmadığınız takdirde aşağıdaki gibi bir uyarıyla karşılaşacaksınız.
 
-![](/wp-content/uploads/2014/11/ErlangNotFound.jpg)
+![Erlang bulunamadı hatası](/wp-content/uploads/2014/11/ErlangNotFound.jpg)
 
 Daha sonra RabbitMQ'yu <a href="http://www.rabbitmq.com/download.html" target="_blank">şu sayfa</a>dan indirerek kurabilirsiniz.
 
@@ -29,7 +29,7 @@ Programınız ile RabbitMQ bağlantısını kurabilmek için, isteğinize göre 
 
 **Kullanımı**
 
-![](/wp-content/uploads/2014/11/StartMenu.jpg)
+![Başlat menüsünde RabbitMQ görünümü](/wp-content/uploads/2014/11/StartMenu.jpg)
 
 Kurulum başarıyla gerçekleştiyse artık bu servisi kullanmamızı kolaylaştıracak arayüzü de kurabiliriz. RabbitMQ Management eklentisini aktifleştirmemiz gerekiyor. Bunun için Başlat menüsündeki RabbitMQ Server klasörü içerisinde RabbitMQ Command Prompt yönetici olarak açılır. Aşağıdaki kod çalıştırılır.
 
@@ -44,9 +44,9 @@ Sonrasında değişikliklerin servise de yansıması için servisi durdurup baş
     rabbitmq-service.bat start
 
 
-![](/wp-content/uploads/2014/11/RabbitMQEnablePluginsStopStart.jpg)
+![RabbitMQ Komutlar](/wp-content/uploads/2014/11/RabbitMQEnablePluginsStopStart.jpg)
 
-Şimdi <http://localhost:15672/> adresine girerek RabbitMQ portalini kurcalayabiliriz. Öntanımlı kullanıcı adı `guest` ve şifre de yine `guest`&#8216;dir.
+Şimdi <a href="http://localhost:15672" data-proofer-ignore>http://localhost:15672</a> adresine girerek RabbitMQ portalini kurcalayabiliriz. Öntanımlı kullanıcı adı `guest` ve şifre de yine `guest`&#8216;dir.
 
 > **Önemli!** Guest kullanıcısı sadece localhost adresinde çalışır. Dışarıdan erişim için yeni bir kullanıcı tanımlanmalıdır.
 

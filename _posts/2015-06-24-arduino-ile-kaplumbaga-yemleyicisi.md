@@ -26,11 +26,11 @@ Arduino nedir diye merak ediyorsanız sizi [şu yazıya][1] alalım.
 
 Ayrıca süre aralığını elle dinamik olarak yönetebilmeyi düşündüm ama bunun fazladan efor olacağını düşünerek listemden çıkardım.
 
-Yemi dökebilmek için arduinoya bağladığım servo motorun hareketli kısmına bir yem kutusu yapıştırdım. Servo motor kod ve şema bilgilerini <a href="http://www.arduino.cc/en/Tutorial/Sweep" target="_blank">şu adreste</a> görebilirsiniz. Daha sonra sistemi test etmemizi sağlayacak <a href="http://www.arduino.cc/en/Tutorial/Button" target="_blank">butonun bağlantısı</a>nı gerçekleştirdim. Son olarak bilgilendirme mesajları için <a href="http://www.arduino.cc/en/Tutorial/LiquidCrystal" target="_blank">LCD ekranı</a> bağladım. Ekranı ayrıca kod içerisinde de görebileceğiniz gibi komik mesajlar için de kullandım.
+Yemi dökebilmek için arduinoya bağladığım servo motorun hareketli kısmına bir yem kutusu yapıştırdım. Servo motor kod ve şema bilgilerini <a href="http://www.arduino.cc/en/Tutorial/Sweep" target="_blank">şu adreste</a> görebilirsiniz. Daha sonra sistemi test etmemizi sağlayacak <a href="http://www.arduino.cc/en/Tutorial/Button" target="_blank">butonun bağlantısı</a>nı gerçekleştirdim. Son olarak bilgilendirme mesajları için <a href="https://www.arduino.cc/en/Tutorial/HelloWorld" target="_blank">LCD ekranı</a> bağladım. Ekranı ayrıca kod içerisinde de görebileceğiniz gibi komik mesajlar için de kullandım.
 
 Bağlantıları tamamladıktan devre tahtası bu hale geldi;
 
-[![](/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema-604x270.png)][2]
+[![Arduino kaplumbağa yemleyici şema](/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_sema-604x270.png)][2]
 
 Tüm bağlantıları tamamladıktan sonra devre tahtası 
 
@@ -208,7 +208,7 @@ void lcdClear() {
 
 Sonuç olarak böyle bir sistem ortaya çıktı.
 
-[![](/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_is_basinda-604x270.jpg)][3]
+[![arduino kaplumbağa yemleyici iş başında](/wp-content/uploads/2015/06/arduino_kaplumbaga_yemleyici_is_basinda-604x270.jpg)][3]
 
 Pilin ömrünü düşünerek LCD ekranı çıkarttım. Ama daha önemli bir noktayı unutuyordum. **TEST!** Sadece duman testini yaptığım bu sistemi 1 hafta boyunca kaplumbağaları yemlesin diye bıraktım. Haftanın ortasında aşırı beslemeden dolayı yenememiş yemler suyu balçık kıvamına sokmuş ve sağolsun çalışma arkadaşlarım kaplumbağaların imdadına yetişmişler.
 
