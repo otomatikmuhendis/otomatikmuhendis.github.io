@@ -62,7 +62,7 @@ url-pretty: "otomatikmuhendis.com"  # eg. "deanattali.com/beautiful-jekyll"
 disqus: "otomatikmuhendis"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-43894898-1"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
