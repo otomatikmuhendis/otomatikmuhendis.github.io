@@ -17,6 +17,7 @@ title: Türkçe Doğal Dil İşleme
 ---
 
 
+
 23 Aralık 2015 günü [Yazılım Buluşmaları](http://www.yazilimbulusmalari.com/) kapsamında [Dr. Aşkın Karakaş](https://tr.linkedin.com/in/askink)'ın sunduğu "Türkçe doğal dil işleme ve semantik analiz" adlı etkinliğe katıldım. Biraz etkinlik içeriğini, biraz da kendi aldığım notları paylaşmaya çalışacağım.
 
 Öncelikli olarak doğal dil işlemeye neden gerek duyarız sorusuna yanıt verelim. Verinin depolanabilmesi için yapısal bir halde olması gerekir. İlişkisel veya değil her hangi bir veritabanında yapısal olmayan veri depolanamaz. Türkiye'de sözlük sitelerinde, küresel olarak bakıldığında [Wikipedia](https://tr.wikipedia.org/)'da bulunan bilginin metin formatında olması yapısal olmayan veriye örnek gösterilebilir.
@@ -30,6 +31,10 @@ Metinlerin içerdiği bilgiler [LSA](http://lsa.colorado.edu/whatis.html) gibi i
 Etkinliğin devamında ["Özgeçmişlerden ve İş İlanlarından Doğal Dil İşleme Yöntemleri ile Bilgi Çıkarımı"](http://www.cmpe.boun.edu.tr/~gungort/papers/Ozgecmislerden%20ve%20Is%20Ilanlarindan%20Dogal%20Dil%20Isleme%20Yontemleri%20ile%20Bilgi%20Cikarimi.pdf) çalışmasının detayları anlatıldı.
 
 Diğer ontoloji siteleri;
-- [Freebase](https://www.freebase.com/)
-- [BabelNet](http://babelnet.org/)
-- [WordNet](http://wordnet.princeton.edu/)
+- [Freebase]
+- [BabelNet]
+- [WordNet]
+
+[Freebase]: https://www.freebase.com/
+[BabelNet]: http://babelnet.org/
+[WordNet]: http://wordnet.princeton.edu/
