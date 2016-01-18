@@ -13,7 +13,7 @@ tags:
   - tekilleştirme
   - zemberek
 published: true
-title: Turkce Dogal Dil Isleme
+title: Türkçe Doğal Dil İşleme
 ---
 
 
