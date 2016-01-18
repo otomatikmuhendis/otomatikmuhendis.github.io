@@ -30,6 +30,6 @@ Metinlerin içerdiği bilgiler [LSA](http://lsa.colorado.edu/whatis.html) gibi i
 Etkinliğin devamında ["Özgeçmişlerden ve İş İlanlarından Doğal Dil İşleme Yöntemleri ile Bilgi Çıkarımı"](http://www.cmpe.boun.edu.tr/~gungort/papers/Ozgecmislerden%20ve%20Is%20Ilanlarindan%20Dogal%20Dil%20Isleme%20Yontemleri%20ile%20Bilgi%20Cikarimi.pdf) çalışmasının detayları anlatıldı.
 
 Diğer ontoloji siteleri;
-* [Freebase](https://www.freebase.com/)
-* [BabelNet](http://babelnet.org/)
-* [WordNet](http://wordnet.princeton.edu/)
+- [Freebase](https://www.freebase.com/)
+- [BabelNet](http://babelnet.org/)
+- [WordNet](http://wordnet.princeton.edu/)
