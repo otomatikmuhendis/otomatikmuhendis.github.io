@@ -11,7 +11,7 @@ tags:
   - python
 published: true
 subtitle: null
-image: /img/exmachina.jpg
+image: ""
 ---
 
 [Ex Machina][1] filmini izleyenler bilir bir sahnede ekranda şöyle bir kod görülüyor.
@@ -21,8 +21,6 @@ image: /img/exmachina.jpg
 _ex machina hacker kodları_
 
 Genelde filmlerde kargacık burgacık saçmalıklardan, hatta ekranda anlamsızca dönen küplerin olduğu <a href="https://www.youtube.com/watch?v=pe6gGUR3Ga4" target="_blank">hacker filmleri</a>nden dolayı bunda da kodların bir sonuca götürmeyeceğini düşünebiliriz. Resimde ki kodları temize çektiğimizde aşağıdaki, derlenebilir Python kodları çıkıyor.
-
-<!--more-->
 
 {% highlight python linenos %}#BlueBook code decryption
 

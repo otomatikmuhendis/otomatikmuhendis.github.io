@@ -22,8 +22,6 @@ subtitle: null
 
 GitHub üzerinde barındırıldığı için bloga [http://techciceksepeti.github.io/](http://techciceksepeti.github.io/) adresinden ulaşabilirsiniz. <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> taslak motoru sayesinde veritabanına ihtiyaç duymuyor. Ruby ile hazırlanan bu motor [Markdown][2] (veya [Textile][3]), [Liquid][4], HTML & CSS dosyalarınızı bir araya getirip işleyerek statik bir blog üretiyor.
 
-<!--more-->
-
 ![TechCicekSepeti Logo]({{ page.image | prepend: site.baseurl | replace: '//', '/' }} "TechCicekSepeti")
 
 

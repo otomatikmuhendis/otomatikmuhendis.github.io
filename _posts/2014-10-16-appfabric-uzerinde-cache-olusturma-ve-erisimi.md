@@ -22,8 +22,6 @@ Eğer Powershell aracı açılırken hata aldıysanız. Daha önceki yazıda da 
 
 Bu işlem sonrasında PowerShell aracını tekrar çalıştırmanız gerekir. Kısayol ayarlarından bakarsanız aslında modül ekleme komutu barından bir PowerShell kısayolu olduğunu görebilirsiniz. Sıklıkla PowerShell kullanan biriyseniz bu komutu buradan kopyalarak kullanabilirsiniz.
 
-<!--more-->
-
 Cache sunucusu çalışmıyorsa (durumu &#8220;DOWN&#8221; ise) aşağıdaki komutla çalıştırabiliriz.
 
 `net start AppFabricCachingService`

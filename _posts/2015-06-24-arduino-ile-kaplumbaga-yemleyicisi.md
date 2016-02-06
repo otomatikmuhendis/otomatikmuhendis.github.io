@@ -24,8 +24,6 @@ Arduino nedir diye merak ediyorsanız sizi [şu yazıya][1] alalım.
   2. Sistemin çalışıp çalışmadığını gösterecek bir test butonu olacak.
   3. Bilgilendirme mesajları için bir LCD ekran olacak.
 
-<!--more-->
-
 Ayrıca süre aralığını elle dinamik olarak yönetebilmeyi düşündüm ama bunun fazladan efor olacağını düşünerek listemden çıkardım.
 
 Yemi dökebilmek için arduinoya bağladığım servo motorun hareketli kısmına bir yem kutusu yapıştırdım. Servo motor kod ve şema bilgilerini <a href="http://www.arduino.cc/en/Tutorial/Sweep" target="_blank">şu adreste</a> görebilirsiniz. Daha sonra sistemi test etmemizi sağlayacak <a href="http://www.arduino.cc/en/Tutorial/Button" target="_blank">butonun bağlantısı</a>nı gerçekleştirdim. Son olarak bilgilendirme mesajları için <a href="https://www.arduino.cc/en/Tutorial/HelloWorld" target="_blank">LCD ekranı</a> bağladım. Ekranı ayrıca kod içerisinde de görebileceğiniz gibi komik mesajlar için de kullandım.

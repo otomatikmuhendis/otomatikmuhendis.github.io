@@ -21,8 +21,6 @@ Eğer **Keyset does not exist.** hatası veriyorsa ve gerekli bilgileri yazdığ
 
 Diğer hata ise **Certificate could not be found. Please ensure the thumbprint and cert location values are correct.** şeklindedir. Bu hata kullandığınız kütüphaneye göre farklılık gösterebilir. Sonuç olarak ulaşılamayan bir sertifika söz konusudur. Eğer sertifikaları doğru şekilde yüklediyseniz ve bu hatayı alıyorsanız o zaman yanlış yere yüklemişsinizdir. Doğru konuma taşımak için aşağıdaki adımları takip edebilirsiniz;
 
-<!--more-->
-
 1. **Başlat**, **Çalıştır**, **mmc** yazın ve **Tamam**&#8216;a tıklayın.  
 2. **File** menüsünden **Add/Remove Snap-in** ve **Add**&#8216;e tıklayın.  
 3. **Snap-in** altında **Certificates** seçip **My User Account** olarak ekleyin.  
@@ -33,6 +31,6 @@ Diğer hata ise **Certificate could not be found. Please ensure the thumbprint a
 
 Pencerenin aşağıdaki şekilde olması gerekir;
 
-[![Windows Sertifika](/wp-content/uploads/2013/10/mmc.png)][1]
+[<img src="http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2013/10/mmc.png?fit=604%2C522" alt="Console Management" class="aligncenter size-full wp-image-84" srcset="http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2013/10/mmc.png?resize=300%2C259 300w, http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2013/10/mmc.png?w=747 747w" sizes="(max-width: 747px) 100vw, 747px" data-recalc-dims="1" />][1]
 
  [1]: http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2013/10/mmc.png

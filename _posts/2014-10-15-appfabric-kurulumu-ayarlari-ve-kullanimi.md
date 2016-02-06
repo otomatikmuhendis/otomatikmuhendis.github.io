@@ -24,8 +24,6 @@ Aşağıdaki gibi tüm özelliklerin kurulumunu istiyoruz.
 
 ![Birinci adım](/wp-content/uploads/2014/10/Step1.png)
 
-<!--more-->
-
 Ön şartlar (Prerequisities) ekranında bilgisayarınızda kurulu olması gereken yazılımları kontrol edecektir. Bunlar hakkında yardımı uygulamanın kurulum dökümanında bulabilirsiniz. Bende Microsoft FTP Service&#8217;in durdurulması gerektiğini söylüyordu. Konsolda &#8220;`net stop ftpsvc`&#8221; yazarak veya Control Panel > Administrative Tools > Services üzerinden durdurabilirsiniz. Gerekli değişiklikleri yaptıktan sonra Refresh butonu ile tekrar kontrol etmesini sağlayınız.
 
 Kurulum başarıyla tamamlandıktan sonra ayarlarını yapabilmemiz için Configuration Wizard (Ayar Sihirbazı) açılacaktır. Bu yardımcı araca isteiğimiz zaman Başlat menüsündeki AppFabric > Configure AppFabric üzerinden ulaşabiliriz.

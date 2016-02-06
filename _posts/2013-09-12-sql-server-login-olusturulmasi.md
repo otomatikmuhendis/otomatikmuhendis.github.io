@@ -14,12 +14,12 @@ tags:
   - user
   - veritabanı
 ---
-SQL Server Management Studio'da yapılan en sıkıcı işlerden biridir Login oluşturulması.  
+SQL Server Management Studio&#8217;da yapılan en sıkıcı işlerden biridir Login oluşturulması.  
 Asla düzgün ve hızlı bir şekilde yapamazsınız çünkü ayda yılda bir lazım olur ve her ne kadar daha önce yapmış olsanız da unutursunuz.  
 Microsoft SQL Server 2005 sertifikasına sahip hatta bu sınavda 1000 üzerinden 1000 yapmış biri olarak bu sorunun sanal sunucuda sorulduğunu hatırlıyorum.  
 Bu da konunun ne kadar önemli olduğunu gösterir. Ayrıca asla Studio ortamına güvenmeyin. Daima SQL yazacak şekilde hazırlıklı olun.
 
-{% highlight sql linenos %}--Login oluşturulur. Şifre için kurallar ve zaman aşımı iptal edilmiştir.
+<pre class="brush: sql; title: ; notranslate" title="">--Login oluşturulur. Şifre için kurallar ve zaman aşımı iptal edilmiştir.
 CREATE LOGIN [kulllaniciAdi] 
 	WITH PASSWORD=N'Sifre1234', 
 	DEFAULT_DATABASE=[VERITABANIADI], 
@@ -45,6 +45,6 @@ USE [master]
 GO
 EXEC xp_instance_regwrite N'HKEY_LOCAL_MACHINE', N'Software\Microsoft\MSSQLServer\MSSQLServer', N'LoginMode', REG_DWORD, 2
 GO
-{% endhighlight %}
+</pre>
 
 Başka sıkıntılarla karşılaşanlar veya sıkıntılarla karşılaşıp çözüm bulanlar yorum olarak yazabilirler.

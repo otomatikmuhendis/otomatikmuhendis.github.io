@@ -24,8 +24,6 @@ RabbitMQ, Unix üzerine Erlang ile yazılmış mesaj kuyruğu sistemidir. MSMQ'd
 
 Daha sonra RabbitMQ'yu <a href="http://www.rabbitmq.com/download.html" target="_blank">şu sayfa</a>dan indirerek kurabilirsiniz.
 
-<!--more-->
-
 Programınız ile RabbitMQ bağlantısını kurabilmek için, isteğinize göre client kütüphanesi kurabilirsiniz. <a href="https://www.rabbitmq.com/dotnet.html" target="_blank">Bu sayfa</a>dan RabbitMQ'nun kendi kütüphanesini veya <a href="http://masstransit.readthedocs.org/en/latest/installation/install.html" target="_blank">şuradan</a> MassTransit service bus'ını indirebilirsiniz.
 
 
