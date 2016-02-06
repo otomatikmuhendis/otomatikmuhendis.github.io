@@ -72,6 +72,7 @@ markdown: kramdown
 highlighter: pygments
 permalink: /:year/:month/:day/:title/
 paginate: 5
+excerpt_separator: <!--more-->
 
 # Default YAML values (more information on Jekyll's site)
 defaults:

@@ -17,9 +17,11 @@ tags:
   - teamcity
   - test
 ---
-<a href="http://turkish.joelonsoftware.com/Articles/TheJoelTest.html" target="_blank">Joel testi</a>, 2000 yılında <a href="http://www.joelonsoftware.com/" target="_blank">Joel Spolsky</a> tarafından bilişim literatürüne kazandırılmış 12 soruluk bir testtir. Bu test yazılım ekiplerinin kalitesini belirlemek amacıyla kullanılır. Ben, <a href="http://careers.stackoverflow.com/" target="_blank">stackoverflow kariyer</a> sayfasında öğrendim ve bir kaç senelik tecrübemle bu soruların günümüzde geçerliliği bir yana, bir yazılım ekibi ne yapmalıdır konusunda yol gösterici olduğunu söyleyebilirim.<figure id="attachment_197" style="width: 300px" class="wp-caption aligncenter">
+<a href="http://turkish.joelonsoftware.com/Articles/TheJoelTest.html" target="_blank">Joel testi</a>, 2000 yılında <a href="http://www.joelonsoftware.com/" target="_blank">Joel Spolsky</a> tarafından bilişim literatürüne kazandırılmış 12 soruluk bir testtir. Bu test yazılım ekiplerinin kalitesini belirlemek amacıyla kullanılır. Ben, <a href="http://careers.stackoverflow.com/" target="_blank">stackoverflow kariyer</a> sayfasında öğrendim ve bir kaç senelik tecrübemle bu soruların günümüzde geçerliliği bir yana, bir yazılım ekibi ne yapmalıdır konusunda yol gösterici olduğunu söyleyebilirim.
 
-<img class="size-medium wp-image-197" src="http://i2.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/joelTest-300x166.jpg?fit=300%2C166" alt="stackoverflow kariyer sayfasında kullanımı" srcset="http://i0.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/joelTest.jpg?resize=300%2C166 300w, http://i0.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/joelTest.jpg?w=545 545w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /><figcaption class="wp-caption-text">stackoverflow kariyer sayfasında kullanımı</figcaption></figure> 
+![Joel Test](/wp-content/uploads/2015/06/joelTest.jpg)
+
+stackoverflow kariyer sayfasında kullanımı
 
 Soruları ele almadan önce Joel Spolsky kimdir sorusunu cevaplayalım. Joel, 2000 yılında internet dünyasına adım atan, eski bir Microsoft çalışanı. 2008 yılında ortağı <a href="http://blog.codinghorror.com/" target="_blank">Jeff Atwood</a> ile birlikte <a href="http://stackoverflow.com/" target="_blank">stackoverflow</a>&#8216;u kuruyorlar. Stackoverflow her yazılımcının uğrak noktası olan bir soru&cevap sitesidir. Daha sonrasında <a href="http://stackexchange.com/" target="_blank">Stack Exchange</a> adında bir soru&cevap siteleri ağına dönüşüyor. Kısaca günümüz programcılığını hızlandıran bir etkisi olmuştur.
 
@@ -37,6 +39,8 @@ Soruları ele almadan önce Joel Spolsky kimdir sorusunu cevaplayalım. Joel, 20
 >  10. Test elemanınız var mı?
 >  11. İş görüşmelerinde adaylara kod yazdırılıyor mu?
 >  12. Koridor kullanım testi yapıyor musunuz?
+
+<!--more-->
 
 Şöyle bir göz gezdirdiğinizde, her &#8220;evet&#8221; cevabına 1 puan dersek şu an çalıştığınız firma sizce kaç puan alır? Alması gereken puan 12, eğer 11 alıyorsa hala umut var ama 10 veya daha düşük almışsa umarım fazla mesailer için ayrıca ücretlendiriliyorsunuzdur.
 
@@ -58,9 +62,11 @@ Söz uçar, yazı kalır. Sistemdeki hataları bir yerde saklamalı ve onlar üz
 
 **5. Yeni bir kod yazmadan önce hataları düzeltiyor musunuz?**
 
-Bunu anlatacak basit bir grafik şu an çalıştığım firmanın duvarında da asılıdır.<figure id="attachment_199" style="width: 500px" class="wp-caption aligncenter">
+Bunu anlatacak basit bir grafik şu an çalıştığım firmanın duvarında da asılıdır.
 
-[<img class="size-full wp-image-199" src="http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/bug-time.gif?fit=500%2C354" alt="Hatanın bulunduğu zaman ile maliyet ilişkisi" data-recalc-dims="1" />][6]<figcaption class="wp-caption-text">Hatanın bulunduğu zaman ile maliyet ilişkisi</figcaption></figure> 
+[![bug time](/wp-content/uploads/2015/06/bug-time.gif)][6]
+
+Hatanın bulunduğu zaman ile maliyet ilişkisi
 
 **6. Güncel iş takviminiz var mı?**
 
@@ -103,4 +109,4 @@ Siz de çalıştığınız şirketin puanını yorumlara yazarak burada paylaşa
  [3]: https://www.jetbrains.com/teamcity/
  [4]: https://github.com/StackExchange/dapper-dot-net/issues
  [5]: https://www.atlassian.com/software/jira
- [6]: http://i1.wp.com/otomatikmuhendis.com/wp-content/uploads/2015/06/bug-time.gif
+ [6]: http://otomatikmuhendis.com/wp-content/uploads/2015/06/bug-time.gif

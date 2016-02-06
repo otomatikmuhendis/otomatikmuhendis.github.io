@@ -15,4 +15,6 @@ Eğer Notepad'i açıp ilk satırına `.LOG` yazarsanız. Onu her açtığınız
 
 Uygulamalarımızda log dosyalarını oluştururken başlarına `.LOG` yazarsak, bundan sonra kaydettiğimiz her log için tarih ve saat otomatik olarak yazılacaktır.
 
+<!--more-->
+
 ![Notepad log](/wp-content/uploads/2013/09/notepad-log.png)

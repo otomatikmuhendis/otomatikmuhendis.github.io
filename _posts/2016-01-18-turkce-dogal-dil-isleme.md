@@ -15,12 +15,11 @@ tags:
 published: true
 title: Türkçe Doğal Dil İşleme
 ---
-
-
-
 23 Aralık 2015 günü [Yazılım Buluşmaları](http://www.yazilimbulusmalari.com/) kapsamında [Dr. Aşkın Karakaş](https://tr.linkedin.com/in/askink)'ın sunduğu "Türkçe doğal dil işleme ve semantik analiz" adlı etkinliğe katıldım. Biraz etkinlik içeriğini, biraz da kendi aldığım notları paylaşmaya çalışacağım.
 
 Öncelikli olarak doğal dil işlemeye neden gerek duyarız sorusuna yanıt verelim. Verinin depolanabilmesi için yapısal bir halde olması gerekir. İlişkisel veya değil her hangi bir veritabanında yapısal olmayan veri depolanamaz. Türkiye'de sözlük sitelerinde, küresel olarak bakıldığında [Wikipedia](https://tr.wikipedia.org/)'da bulunan bilginin metin formatında olması yapısal olmayan veriye örnek gösterilebilir.
+
+<!--more-->
 
 [DBpedia](http://wiki.dbpedia.org/) gibi topluluklar Wikipedia içerisindeki bilgiyi yapısal hale getirerek bunu webde erişilebilir kılar. Böylece karmaşık sorgularla, webdeki farklı veri setlerine bağlamanızı sağlar.
 
