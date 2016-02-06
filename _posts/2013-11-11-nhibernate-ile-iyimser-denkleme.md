@@ -23,6 +23,8 @@ Bunun önüne geçmek için NHibernate’in sunduğu Optimistic Lock’u kullana
 DynamicUpdate.True:  
 Update SQL’inin runtime’da dinamik olarak oluşmasını sağlıyor.
 
+<!--more-->
+
 OptimisticLock.All:  
 Update statement’ın Where clause’unda kaydın tüm alanlarını orijinal değerleriyle kontrol ederek update esnasında kaydın hiçbir alanının değişmemiş olmasından emin oluyor.
 
@@ -33,11 +35,11 @@ Update statement’ın Where clause’una sadece dirty durumdaki (güncel olmaya
 Amount:100 olan bir kaydı update ederken  
 NHibernate tarafından oluşturulan 
 
-<pre class="brush: sql; title: ; notranslate" title="">UPDATE TABLE SET AMOUNT=110 WHERE ID=1</pre>
+{% highlight sql linenos %}UPDATE TABLE SET AMOUNT=110 WHERE ID=1{% endhighlight %}
 
 şeklindeki bir update statement 
 
-<pre class="brush: sql; title: ; notranslate" title="">UPDATE TABLE SET AMOUNT=110 WHERE ID=1 AND AMOUNT=100</pre>
+{% highlight sql linenos %}UPDATE TABLE SET AMOUNT=110 WHERE ID=1 AND AMOUNT=100{% endhighlight %}
 
 haline geliyor. Eğer select ile update arasında başka bir session bunun değerini 120 yapmışsa, amount’u 110 olarak güncellememize izin vermiyor.
 

@@ -18,6 +18,8 @@ Arduino iki kısımdan oluşur; biri anakartı diyebileceğimiz kendisi, diğeri
 
 ![Arduino IDE](/wp-content/uploads/2015/06/Arduino_1.0_IDE_Ubuntu_11.10.png)
 
+<!--more-->
+
 Arduino IDE
 
 <a href="http://www.arduino.cc/en/Main/Software" target="_blank">Arduino yazılımı</a>, kendine has IDE&#8216;siyle (tümleşik geliştirme ortamı, kısaca editörü) ve kendine has programlama dilinde yazılmaktadır. C/C++ diline benzeyen bu kodu yazdıktan sonra Arduino kart üzerindeki işlemciye yükleriz ve anında çalışmaya başlar.

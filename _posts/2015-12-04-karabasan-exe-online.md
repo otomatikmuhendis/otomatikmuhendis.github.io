@@ -19,6 +19,8 @@ Son zamanlarda uğraştığım bir çok konu var ama bunları sadece arkadaşlar
 
 Bu çalışmalardan ilki; 90'lı yılların yapay zekası olan ünlü <a href="https://eksisozluk.com/karabasan-exe--1718561" target="_blank">karabasan.exe</a> uygulamasını online hale getirmek oldu. Bu MSDOS uygulamasını Windows üzerinde çalıştırabilmek için  <a href="http://www.dosbox.com/" target="_blank">DOSBox</a> DOS emulator'ı gerekiyor ve akıllarda virüs şüphesini uyandırıyor. Ben nostaljiye erişimi kolaylaştırmak için bir çalışma yapmak istedim.  Çalışmaya önce EXE dosyasını decompile etmeyi deneyerek başladım. Sağlıklı bir sonuç elde edemedim.
 
+<!--more-->
+
 ![Karabasan.exe Online]({{ page.image | prepend: site.baseurl | replace: '//', '/' }} "Karabasan.exe Online")
 
 İkinci aşama ters mühendislikti. Ürünü inceleyerek, verdiği tüm yanıtları not ederek devam ettim. Daha sonrasında aynı mantığı kullanarak JavaScript ile tekrar kodlamaya başlamıştım. Hatta bu iş için konsol görüntüsünü elde etmeme yardımcı olacak <a href="http://terminal.jcubic.pl/" target="_blank">Jquery Terminal</a> adında güzel bir JavaScript kütüphanesi de bulmuştum ama aklıma başka bir yöntem geldi.
