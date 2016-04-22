@@ -38,6 +38,8 @@ DenizBank'ın teknolojik altyapısını ve bankacılık yazılımını üreten I
 - Teknolojiler: Kısıt yok.
 - Konu:  Çiftçiler, küçük ve orta ölçekli işletmeler, belediyeler ve sosyal sorumluluk bağlamına finans ekosistemini entegre ederek fark yaratan projeler.
 
+<!--more-->
+
 ## [Garanti Hackathon](https://hackathon.garanti.com.tr/)
 
 Şu ana kadar gördüklerimiz arasında en iyi hazırlığı yapmış etkinliktir. Demo uygulamanın tamamen etkinlik sırasında yazılmış olmasını istiyorlar ve sonrasında geliştiriciye ait olarak kalacağını, hak iddia edilmeyeceğini belirtiyorlar. Jüri üyeleriyle ve mentörleriyle sağlam bir kadro oluşturulmuş. Kullanılacak servisler ve teknolojiler detaylarıyla verilmiş hatta [github reposu](https://github.com/TGarantiBank/Hackathon)nda kodlara da göz atma fırsatı yakalayabiliyorsunuz.
