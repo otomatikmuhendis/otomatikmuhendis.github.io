@@ -82,6 +82,15 @@ YGA liderlik okulunun düzenleyeceği etkinlik, diğerlerinden daha farklı olac
 - Konu: Etkinlik öncesinde verilecek.
 
 
+
+## [Hackingfest](http://www.hackingfest.com/)
+
+Sonuncu ama en fazla ilgi çekici olan hackathon Hackingfest, [Google Developers Group](http://developers.google.com/) ve [Valven Teknoloji](http://www.valven.com/) tarafından düzenleniyor. 2016 Mayıs ayı içerisinde 9 farklı şehirde (Düzce, Edirne, Sivas, Kütahya, İzmir, Konya, Denizli, Trabzon ve Ankara) etkinlik düzenlenecek. Henüz Tekirdağ'da düzenlenecek etkinlik için tarih belirli değil. Bu kadar çeşitli şehirde gerçekleşiyor olması bu hackathon serisini ön plana çıkarıyor. Belirli bir firmanın özelinde olmadığı için de katılımcılara teknolojik ve fikir bakımından özgürlük sağlıyor. İlk etkinlik tamamlandıktan sonra sitede paylaşımlar nasıl olacak merakla bekliyoruz.
+
+- Teknoloji: Etkinlikler arasında farklılık gösterebiliyor. Zorunlu değil, tavsiye niteliğinde; Google Firebase, android, Google Cloud Platform, Progrefsif Web Uygulamaları, AngularJS
+- Konu: Serbest
+
+
 **Ortak eksiklik**: Etkinlik sonrası sitelerin güncel tutulmaması, yazı, video, fotoğraf veya sunum gibi içeriklerin paylaşılmaması. Birer ekran görüntüsüyle ve birer satırlık yazılarla dahi bilgi verilebilir. Örnek: [Duolingo Hackathon](http://duolingo.tumblr.com/post/62723181502/duolingos-inaugural-hackathon)
 
 Fotoğraf: [Smart Toasters and the Airbnb of Things at Canada's International Hackathon](http://motherboard.vice.com/read/smart-toasters-and-the-airbnb-of-things-at-canadas-international-hackathon) yazarına aittir.
