@@ -12,7 +12,11 @@ tags:
 published: true
 title: "Testivus'un Test Kapsamı Üzerine Düşünceleri"
 ---
-"[Testivus'un Yolu](http://www.artima.com/weblogs/viewpost.jsp?thread=203994)" yazısına istinaden gelen "Kod kapsamının yüzdesine ilişkin Testivus'un hikmeti nedir?" sorusuna cevap:
+
+
+"[Testivus'un Yolu](http://www.artima.com/weblogs/viewpost.jsp?thread=203994)" yazısına istinaden gelen "Kod kapsamının yüzdesine ilişkin Testivus'un hikmeti nedir?" sorusuna cevap niteliğinde öykü;
+
+--
 
 Bir sabah erken saatlerde, bir programcı büyük ustaya sordu:
 
@@ -77,3 +81,5 @@ Genç çırak ve ak saçlı büyük usta düşünceli bir sessizlik içinde çay
 --
 
 Kaynak: [How Much Unit Test Coverage Do You Need? - The Testivus Answer](http://www.artima.com/weblogs/viewpost.jsp?thread=204677)
+
+
