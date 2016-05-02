@@ -17,8 +17,9 @@ Koşulda yazım yanlışı varsa, anında uyarı mesajı görüntülenir. Yazım
 
 Kısaca **_for_** döngüsünde belirli bir kayıt için döngünün içine girmek istiyorsak, **_url == "otomatikmuhendis.com"_** gibi bir koşul yazabiliriz.
 
-![conditions.png]({{site.baseurl}}/img/conditions.png)
+<!--more-->
 
+![conditions.png]({{site.baseurl}}/img/conditions.png)
 
 ### Koşullu kesme noktası nasıl eklenir:
 
