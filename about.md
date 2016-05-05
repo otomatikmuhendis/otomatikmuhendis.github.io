@@ -11,6 +11,15 @@ Bilişim sektöründe çalışan biri olarak çalışmalarım sırasında karş�
 
 Bu arada evet sitenin ismi konusunda Otomatik Portakal filminden esinlenilmiştir.
 
+### Profillerim
+
+* [HackerRank]
+* [SoloLearn]
+
+[HackerRank]: https://www.hackerrank.com/olcay
+[SoloLearn]: http://www.sololearn.com/Profile/611681
+
+
 ### İletişim
 
 [otomatikmuhendis@yahoo.com](mailto:otomatikmuhendis@yahoo.com)
