@@ -418,6 +418,7 @@ header.header-post .post-heading .post-subheading {
 }
 .post-author-row{
   background-color: #F5F5F5;
+  margin-top: 40px;
   margin-bottom: 40px;
       border-top: 1px #EAEAEA solid;
           border-bottom: 1px #EAEAEA solid;
@@ -425,4 +426,8 @@ header.header-post .post-heading .post-subheading {
 .post-author-avatar{
   width: 150px;
   max-height: 150px;
+}
+.post-tag {
+    margin-right: 5px;
+    margin-bottom: 40px;
 }
