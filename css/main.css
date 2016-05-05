@@ -255,12 +255,18 @@ footer .theme-by {
   font-weight: 300;
   margin-bottom: 10px;
 }
-.post-preview .post-meta,
-.post-heading .post-meta {
+.post-preview .post-meta{
   color: #808080;
   font-size: 16px;
   font-style: italic;
   margin: 0 0 10px;
+}
+.post-heading .post-meta {
+  color: #808080;
+  font-size: 16px;
+  font-style: italic;
+  margin: 0 0 20px;
+  display: block;
 }
 .post-preview .post-entry {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -429,5 +435,4 @@ header.header-post .post-heading .post-subheading {
 }
 .post-tag {
     margin-right: 5px;
-    margin-bottom: 40px;
 }
