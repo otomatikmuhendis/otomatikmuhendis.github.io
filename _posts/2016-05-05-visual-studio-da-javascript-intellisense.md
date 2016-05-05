@@ -18,5 +18,5 @@ Projedeki veya çalışılan sayfadaki tüm _.js_ dosyalarının dahil edilmesi 
 
 ![referencesjs.png]({{site.baseurl}}/img/referencesjs.png)
 
-Yeni bir _.js_ dosyası eklediğimizde otomatik eklenmesini istiyorsak veya var olan bir dosyanın ismi değiştiğinde, silindiğinde veya taşındığında değişikliklerin buraya yansımasını istiyorsak. İlk satıra **_/// <autosync enabled="true" />_** yazmalıyız.
+Yeni bir _.js_ dosyası eklediğimizde otomatik eklenmesini istiyorsak veya var olan bir dosyanın ismi değiştiğinde, silindiğinde veya taşındığında değişikliklerin buraya yansımasını istiyorsak. İlk satıra `/// <autosync enabled="true" />` yazmalıyız.
 
