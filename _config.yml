@@ -37,7 +37,7 @@ author:
   name: Olcay Bayram
   email: "otomatikmuhendis@yahoo.com"
   facebook: otomatikmuhendis  # eg. daattali
-  github: otomatikmuhendis    # eg. daattali
+  github: olcay    # eg. daattali
   twitter: yourname   # eg. daattali
   linkedin: in/olcaybayram  # eg. "pub/dean-attali/8/946/143"
   stackoverflow: yourlink  # eg. "3943160/daattali"
@@ -150,6 +150,8 @@ prose:
               value: 'Neler Yapıyorum?'
             - name: 'Yazılım'
               value: 'Yazılım'
+            - name: 'IDE Tips'
+              value: 'IDE Tips'
       - name: "tags"
         field:
           element: "multiselect"
