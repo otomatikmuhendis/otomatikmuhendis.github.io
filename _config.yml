@@ -1,4 +1,4 @@
-# --- Serving options --- #
+﻿# --- Serving options --- #
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
@@ -170,3 +170,6 @@ prose:
   
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+gems:
+  - jekyll-seo-tag
