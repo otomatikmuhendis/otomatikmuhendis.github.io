@@ -33,7 +33,7 @@ layout: default
          tarihinde {{ page.author }} tarafından yayınlandı.
          <br/>
          {% if page.tags %}
-        <span class="glyphicon glyphicon-tags post-tag" title="Etiketler"></span>  {{ page.tags | join: ", " }}
+        <span class="glyphicon glyphicon-tags post-tag" title="Etiketler"></span>  {% include post-tags.html %}
         {% endif %}
         {% if page.categories %}
         <span class="glyphicon glyphicon-folder-open post-tag" title="Kategori"></span>  {{ page.categories | join: ", " }}
