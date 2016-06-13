@@ -2,13 +2,12 @@
 author: Olcay Bayram
 layout: post
 subtitle: Visual Studio İpucları
-image: ""
 categories: Yazılım
-tags: 
+tags:
   - visual studio
   - tips
 published: true
-title: Visual Studio Başlığında Dalın Gösterilmesi
+title: Visual Studio Başlığında Branch'in Gösterilmesi
 ---
 Visual Studio, editör penceresinin başlığında o sırada açık olan proje adını göstermektedir. Git ve TFS gibi versiyon yönetim sistemlerini kullanmaya başladığımızda farklı dallarda aynı isimli projeler oluştururuz. Bu sebeple hangi daldaki proje üzerinde çalıştığımız konusunda sürekli bir şüphe oluşur ve bunu kontrol etmek için zaman kaybederiz.
 
