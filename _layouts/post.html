@@ -9,19 +9,16 @@ layout: default
   js.src = "//connect.facebook.net/tr_TR/sdk.js#xfbml=1&version=v2.6";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
-<header class="header-post">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <div class="post-heading">
-      	{% if page.image and page.image != "" %}
-      	  <div class="featuredImg" style="background-image: url('{{ page.image | prepend: site.baseurl | replace: '//', '/' }}')"></div>
-      	{% endif %} 
-        <h1>{{ page.title }}</h1>
-        {% if page.subtitle %}
-        <h2 class="post-subheading">{{ page.subtitle }}</h2>
-        {% endif %}
-        <span class="post-meta">{{ page.date | date: "%-d" }} 
+<article class="post">
+	<header>
+		<div class="title">
+			<h2><a href="#">{{ page.title }}</a></h2>
+			{% if page.subtitle %}
+	        <p>{{ page.subtitle }}</p>
+	        {% endif %}
+		</div>
+		<div class="meta">
+			<time class="published" datetime='{{ page.date | date: "%Y-%m-%d" }}'>{{ page.date | date: "%-d" }} 
         {% assign m = page.date | date: "%m" %}
         {% case m %}
           {% when '01' %}Ocak
@@ -37,74 +34,71 @@ layout: default
           {% when '11' %}Kasım
           {% when '12' %}Aralık
         {% endcase %} 
-        {{ page.date | date: "%Y" }}
-         tarihinde {{ page.author }} tarafından yayınlandı.
-         <br/>
-         {% if page.tags %}
-        <span class="glyphicon glyphicon-tags post-tag" title="Etiketler"></span>  {% include post-tags.html %}
-        {% endif %}
-        {% if page.categories %}
-        <span class="glyphicon glyphicon-folder-open post-tag" title="Kategori"></span>  {{ page.categories | join: ", " }}
-        {% endif %}
-
-         </span>
-      </div>
-     </div>
-  </div>
-</header>
-
-<article>
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-	  {{ content }}
-	  <br/>
-	  <div style="float:right;">
-	  	<div style="float:left;width:145px;"><div class="fb-like" data-href="{{site.url}}{{page.url}}" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div> </div>
+        {{ page.date | date: "%Y" }}</time>
+        {% assign author = site.data.authors[page.author] %}
+			<a href="#author" class="author"><span class="name">{{ page.author }}</span><img src="{{ author.avatar | prepend: "/img" }}" alt="{{ page.author }}" /></a>
+			{% if page.categories %}
+	        <p>{{ page.categories | join: ", " }}</p>
+	        {% endif %}
+		</div>
+	</header>
+	{% if page.image and page.image != "" %}
+      	  <a href="#" class="image featured"><img src="{{ page.image | prepend: site.baseurl | replace: '//', '/' }}" alt="" /></a>
+    {% endif %}
+	{{ content }}
+	<footer>
+		<ul class="actions">
+			{% if page.tags %}
+	        <span class="glyphicon glyphicon-tags post-tag" title="Etiketler"></span>  {% include post-tags.html %}
+	        {% endif %}
+	        
+		</ul>
+		<ul class="stats">
+	  	<li><div class="fb-like" data-href="{{site.url}}{{page.url}}" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div> </li>
 	  	
-	  	<div style="float:left;width:115px;padding-top: 5px;"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: tr_TR</script><script type="IN/Share" data-url="{{site.url}}{{page.url}}" data-counter="right"></script></div>
-	  </div>
+	  	<li><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: tr_TR</script><script type="IN/Share" data-url="{{site.url}}{{page.url}}" data-counter="right"></script></li>
+	    </ul>
+
+	    
+	</footer>
+	{% if page.author %}
+	<hr/>
+	<div>
+	    {% assign author = site.data.authors[page.author] %}
+	    <div style="float:left;padding-right: 40px;">
+	        <img src="{{ author.avatar | prepend: "/img" }}" title="{{ page.author }}" alt="{{ page.author }}" class="post-author-avatar" />
+	      <h4 class="post-subheading">Yazar Hakkında</h4>
+	    </div>
+	    <div>
+	    	<a rel="author" name="author" href="{{ author.url }}" title="{{ page.author }}" data-proofer-ignore> {{ page.author }}</a> {{ author.description }}
+	    </div>
+	    <div style="clear:both;"></div>
 	</div>
-  </div>
+	{% endif %}
 </article>
 
-{% if page.author %}
-<div class="footer-post">
-  <div class="row post-author-row">
-    {% assign author = site.data.authors[page.author] %}
-    <div class="col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-1 post-author">
-      <img src="{{ author.avatar | prepend: "/img" }}" title="{{ page.author }}" alt="{{ page.author }}" class="post-author-avatar" />
-    </div>
-    <div class="col-lg-6 col-md-8">
-      <div class="post-heading">
-        <h4 class="post-subheading">Yazar Hakkında</h4>
-        <div class="post-meta">
-          <a rel="author" href="{{ author.url }}" title="{{ page.author }}" data-proofer-ignore> {{ page.author }}</a> {{ author.description }}
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-{% endif %}
 
-<div class="row">
-  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-    <ul class="pager blog-pager">
-      {% if page.previous.url %}
-      <li class="previous">
-        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; ÖNCEKİ YAZI</a>
-      </li>
-      {% endif %}
-      {% if page.next.url %}
-      <li class="next">
-        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">SONRAKİ YAZI &rarr;</a>
-      </li>
-      {% endif %}
-    </ul>
-  </div>
-</div>
+<!-- Pagination -->
+
+<ul class="actions pagination">
+  <li>
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"  class="button big previous" title="{{page.previous.title}}">ÖNCEKİ YAZI</a>
+  {% else %}
+    <a href="#"  class="disabled button big previous">ÖNCEKİ YAZI</a>
+  {% endif %}
+  </li>
+  <li>
+  {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"  class="button big next" title="{{page.next.title}}">SONRAKİ YAZI</a>
+  </li>
+  {% else %}
+    <a href="#"  class="disabled button big next">SONRAKİ YAZI</a>
+  {% endif %}
+</ul>
 
 {% if page.comments %}
-<div class="row disqus-comments">
+<div class="width:100%">
   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
     {% include disqus.html %}
   </div>

@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Otomatik Mühendis
+title: OTOMATİK MÜHENDİS
 
 # Short description of your site
-description: makineleşmeyi hızlandıran site
+description: MAKİNELEŞMEYİ HIZLANDIRAN SİTE
 
 # --- Navigation bar options --- #
 
@@ -28,6 +28,8 @@ avatar: "/img/avatar-icon.png"
 # List of links in the navigation bar
 navbar-links:
   Hakkında: "about"
+  Kategoriler: "search"
+  Konular: "tags"
   
 # --- Footer options --- #
 
@@ -174,3 +176,4 @@ prose:
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
