@@ -1,21 +1,27 @@
 ---
-layout: default
+layout: page
 title: Otomatik Mühendis
 subtitle: makineleşmeyi hızlandıran site
 ---
 
 <div class="posts-list">
   {% for post in paginator.posts %}
-  <article class="post">
-  <header>
-    <div class="title">
-      <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      {% if post.subtitle %}
-      <p>{{ post.subtitle }}</p>
-      {% endif %}
-    </div>
-    <div class="meta">
-      <time class="published" datetime='{{ post.date | date: "%Y-%m-%d" }}'>{{ post.date | date: "%-d" }} 
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+    {% if post.image and post.image != "" %}
+      <div class="featuredImg" style="background-image: url('{{ post.image | prepend: site.baseurl | replace: '//', '/' }}')"></div>
+    {% endif %} 
+	  <h2 class="post-title">{{ post.title }}</h2>
+	
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}  
+    </a>
+
+    <p class="post-meta">
+      {{ post.date | date: "%-d" }} 
         {% assign m = post.date | date: "%m" %}
         {% case m %}
           {% when '01' %}Ocak
@@ -31,46 +37,29 @@ subtitle: makineleşmeyi hızlandıran site
           {% when '11' %}Kasım
           {% when '12' %}Aralık
         {% endcase %} 
-        {{ post.date | date: "%Y" }}</time>
-        {% assign author = site.data.authors[post.author] %}
-      <a href="{{ post.url | prepend: site.baseurl }}#author" class="author"><span class="name">{{ post.author }}</span><img src="{{ author.avatar | prepend: "/img" }}" alt="{{ page.author }}" /></a>
-      {% if post.categories %}
-        <p>{{ post.categories | join: ", " }}</p>
-        {% endif %}
+        {{ post.date | date: "%Y" }} tarihinde {{ post.author }} tarafından yayınlandı. <a href="{{ post.url | prepend: site.url }}#disqus_thread">0 yorum</a> yapıldı.
+    </p>
+  
+    <div class="post-entry">
+      {{ post.excerpt }}
+	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Okumaya Devam Et]</a>
     </div>
-  </header>
-  {% if post.image and post.image != "" %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="image featured"><img src="{{ post.image | prepend: site.baseurl | replace: '//', '/' }}" alt="" /></a>
-  {% endif %}
-  {{ post.excerpt }}
-  <footer>
-    <ul class="actions">
-      <li><a href="{{ post.url | prepend: site.baseurl }}" class="button big">Okumaya Devam Et</a></li>
-    </ul>
-    <ul class="stats">
-      <li><a href="{{ post.url | prepend: site.url }}#disqus_thread" class="icon fa-comment">0 yorum</a></li>
-    </ul>
-  </footer>
-</article>
+  
+   </article>
   {% endfor %}
 </div>
 
-<!-- Pagination -->
 {% if paginator.total_pages > 1 %}
-<ul class="actions pagination">
-  <li>
+<ul class="pager main-pager">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"  class="button big previous">DAHA YENİ YAZILAR</a>
-  {% else %}
-    <a href="#"  class="disabled button big previous">DAHA YENİ YAZILAR</a>
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; DAHA YENİ YAZILAR</a>
+  </li>
   {% endif %}
-  </li>
-  <li>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"  class="button big next">DAHA ESKİ YAZILAR</a>
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">DAHA ESKİ YAZILAR &rarr;</a>
   </li>
-  {% else %}
-    <a href="#"  class="disabled button big next">DAHA ESKİ YAZILAR</a>
   {% endif %}
 </ul>
 {% endif %}
