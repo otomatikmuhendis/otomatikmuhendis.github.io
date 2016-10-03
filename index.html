@@ -53,12 +53,12 @@ subtitle: makineleşmeyi hızlandıran site
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
   <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; DAHA YENİ YAZILAR</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; YENİ YAZILAR</a>
   </li>
   {% endif %}
   {% if paginator.next_page %}
   <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">DAHA ESKİ YAZILAR &rarr;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">ESKİ YAZILAR &rarr;</a>
   </li>
   {% endif %}
 </ul>

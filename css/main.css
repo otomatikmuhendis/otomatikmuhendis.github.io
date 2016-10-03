@@ -7,7 +7,7 @@ body {
   font-size: 18px;
   color: #404040;
   position: relative;
-  background: #FFF;
+  background: #f5f5f5;
 }
 p {
   line-height: 1.5;
@@ -18,7 +18,7 @@ p a {
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 600;
 }
 a {
   color: #fc7837;
@@ -89,22 +89,20 @@ img::-moz-selection {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #fc7837;
+  background: #444;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .navbar-custom .nav li a {
-  text-transform: uppercase;
-  font-size: 12px;
+  font-weight: 100;
   letter-spacing: 1px;
+  color: #f5f5f5;
 }
 
-.navbar-custom .navbar-brand,
-.navbar-custom .nav li a {
-  font-weight: 800;
-  color: #fff;
-  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+.navbar-custom .navbar-brand {
+  color: #f5f5f5;
+  font-weight: 600;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -220,15 +218,20 @@ footer .theme-by {
  
 /* --- Post preview --- */
 
-.post-preview {
-  padding: 35px 0;
-  border-bottom: 1px solid #eee;
+.post {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #e5e5e5;
+  margin: 0 0 2em 0;
+  padding-top: 3em;
 }
 
-@media only screen and (min-width: 768px) {
-  .post-preview {
-    padding: 50px 0;
-  }
+.post-preview {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #e5e5e5;
+  margin: 0 0 2em 0;
+  padding: 3em;
 }
 
 .post-preview:last-child {
@@ -342,14 +345,13 @@ header.header-post .post-heading .post-subheading {
 
 .pager li a {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-size: 14px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  padding: 10px 5px;
-  background: #FFF;
-  border-radius: 0;
-  color: #404040;
+  font-weight: 600;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #e5e5e5;
+  margin: 0 0 2em 0;
+  padding-top: 3em;
 }
 @media only screen and (min-width: 768px) {
   .pager li a {
@@ -359,8 +361,7 @@ header.header-post .post-heading .post-subheading {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  background: #fc7837;
-  border: 1px solid #000;
+  background: #444;
 }
 
 .pager {
