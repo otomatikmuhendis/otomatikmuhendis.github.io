@@ -40,19 +40,19 @@ public class Edit_Page {
   }
   
   public WebElement txt_Name(){
-    return _driver.findElement(By.id("name"));
+    return _driver.findElement(By.id("txtName"));
   }
   
-  public WebElement txt_Introduced(){
-    return _driver.findElement(By.id("introduced"));
+  public WebElement txt_InitialDate(){
+    return _driver.findElement(By.id("txtInitialDate"));
   }
   
   public WebElement slc_Company(){
-    return _driver.findElement(By.id("company"));
+    return _driver.findElement(By.id("listCompany"));
   }
   
   public WebElement btn_Save(){
-    return _driver.findElement(By.cssSelector("input.btn.primary"));
+    return _driver.findElement(By.cssSelector("input[type='submit']"));
   }
   
   public WebElement btn_Cancel(){
@@ -60,7 +60,7 @@ public class Edit_Page {
   }
   
   public WebElement btn_Remove(){
-    return _driver.findElement(By.cssSelector("#main > form.topRight > input"));
+    return _driver.findElement(By.cssSelector("#frmEdit.top > input"));
   }
 }
 {% endhighlight %}
@@ -93,15 +93,15 @@ public class List_Page {
   }
   
   public WebElement btn_Add(){
-    return _driver.findElement(By.id("add"));
+    return _driver.findElement(By.id("btnAdd"));
   }
   
-  public WebElement txt_Filter(){
-    return _driver.findElement(By.id("searchbox"));
+  public WebElement txt_Search(){
+    return _driver.findElement(By.id("txtSearch"));
   }
   
-  public WebElement btn_Filter(){
-    return _driver.findElement(By.id("searchsubmit"));
+  public WebElement btn_Search(){
+    return _driver.findElement(By.id("btnSearch"));
   }
   
   public WebElement btn_Link(String text){
@@ -154,7 +154,7 @@ public class hardwareDatabase {
   private static String baseUrl;
   
   public static String hardwareName = "testMakinasi"; 
-  public static String introduced = "1995-01-01"; 
+  public static String initialDate = "1995-01-01"; 
   public static String hardwareNameUpdated = "güncellenenTestMakinasi";
   public static String companyName = "Otomatik Mühendis";
   
@@ -194,8 +194,8 @@ public class hardwareDatabase {
     editPage.txt_Name().clear();
     editPage.txt_Name().sendKeys(hardwareName);
     
-    editPage.txt_Introduced().clear();
-    editPage.txt_Introduced().sendKeys(introduced);
+    editPage.txt_InitialDate().clear();
+    editPage.txt_InitialDate().sendKeys(initialDate);
     
     //Dropdown listesinden seçim yapılıyor
     new Select(editPage.slc_Company()).selectByVisibleText(companyName);
@@ -207,10 +207,10 @@ public class hardwareDatabase {
   public void test02searchHardware() throws Exception {
     //Eklediğimiz nesneyi bul
 
-    listPage.txt_Filter().clear();
-    listPage.txt_Filter().sendKeys(hardwareName);
+    listPage.txt_Search().clear();
+    listPage.txt_Search().sendKeys(hardwareName);
     
-    listPage.btn_Filter().click();
+    listPage.btn_Search().click();
     
     listPage.btn_Link(hardwareName).click();
     
@@ -219,12 +219,12 @@ public class hardwareDatabase {
   
   @Test
   public void test03updateHardware() throws Exception {
-    //Eklediğimiz nesneyi bulup güncelleye ve yeni ismiyle tekrar ara
+    //Eklediğimiz nesneyi bulup güncelle ve yeni ismiyle tekrar ara
 
-    listPage.txt_Filter().clear();
-    listPage.txt_Filter().sendKeys(hardwareName);
+    listPage.txt_Search().clear();
+    listPage.txt_Search().sendKeys(hardwareName);
     
-    listPage.btn_Filter().click();
+    listPage.btn_Search().click();
     
     listPage.btn_Link(hardwareName).click();
     
@@ -233,10 +233,10 @@ public class hardwareDatabase {
     
     editPage.btn_Save().click();
     
-    listPage.txt_Filter().clear();
-    listPage.txt_Filter().sendKeys(hardwareNameUpdated);
+    listPage.txt_Search().clear();
+    listPage.txt_Search().sendKeys(hardwareNameUpdated);
     
-    listPage.btn_Filter().click();
+    listPage.btn_Search().click();
     
     listPage.btn_Link(hardwareNameUpdated).click();
     
@@ -247,10 +247,10 @@ public class hardwareDatabase {
   public void test04deleteHardware() throws Exception {
     //Güncellenen nesneyi kaldır
 
-    listPage.txt_Filter().clear();
-    listPage.txt_Filter().sendKeys(hardwareNameUpdated);
+    listPage.txt_Search().clear();
+    listPage.txt_Search().sendKeys(hardwareNameUpdated);
     
-    listPage.btn_Filter().click();
+    listPage.btn_Search().click();
     
     listPage.btn_Link(hardwareNameUpdated).click();
     
