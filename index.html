@@ -7,18 +7,22 @@ subtitle: makineleşmeyi hızlandıran site
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
+    
     {% if post.image and post.image != "" %}
+    <a href="{{ post.url | prepend: site.baseurl }}">
       <div class="featuredImg" style="background-image: url('{{ post.image | prepend: site.baseurl | replace: '//', '/' }}')"></div>
+    </a>
     {% endif %} 
-	  <h2 class="post-title">{{ post.title }}</h2>
+	  <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title">{{ post.title }}</h2></a>
 	
 	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}  
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <h3 class="post-subtitle">
+        {{ post.subtitle }}
+      </h3>
     </a>
+	  {% endif %}  
+    
 
     <p class="post-meta">
       {{ post.date | date: "%-d" }} 
