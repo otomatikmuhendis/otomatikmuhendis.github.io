@@ -3,15 +3,13 @@ title: SQL Management Studio Backup ile Database Kopyalamak
 author: Olcay Bayram
 layout: post
 permalink: /2013/08/28/sql-management-studio-backup-ile-database-kopyalama/
+en: /2013/08/28/sql-management-studio-copy-database-with-backup/
 categories:
   - Veritabanı
 tags:
-  - database
-  - db
   - management studio
   - mssql
   - sql
-  - sqlms
   - veritabanı
 ---
 SQL Management Studio'da çalıştığımız bir veritabanının kopyasını, sıklıkla kullandığımız Backup &#8211; Restore düzeni ile alabiliriz. Ama bu işlemin bir kaç püf noktası işinizi kolaylaştıracaktır.
