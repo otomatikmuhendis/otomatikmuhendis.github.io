@@ -27,6 +27,9 @@ avatar: "/img/avatar-icon.png"
 
 # List of links in the navigation bar
 navbar-links:
+  Yazılım: "category/yazilim"
+  Veritabanı: "category/veritabani"
+  Sistem: "category/sistem"
   Hakkında: "about"
   
 # --- Footer options --- #
