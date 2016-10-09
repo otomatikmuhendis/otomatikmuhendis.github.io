@@ -1,70 +1,65 @@
 ---
 layout: default
 ---
-<div class="post">
-<header class="header-post">
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-      <div class="post-heading">
-      	{% if page.image and page.image != "" %}
-      	  <div class="featuredImg" style="background-image: url('{{ page.image | prepend: site.baseurl | replace: '//', '/' }}')"></div>
-      	{% endif %} 
-        <h1>{{ page.title }}</h1>
-        {% if page.subtitle %}
-        <h2 class="post-subheading">{{ page.subtitle }}</h2>
-        {% endif %}
-        <span class="post-meta">{{ page.date | date: "%-d" }} 
-        {% assign m = page.date | date: "%m" %}
-        {% case m %}
-          {% when '01' %}Ocak
-          {% when '02' %}Şubat
-          {% when '03' %}Mart
-          {% when '04' %}Nisan
-          {% when '05' %}Mayıs
-          {% when '06' %}Haziran
-          {% when '07' %}Temmuz
-          {% when '08' %}Ağustos
-          {% when '09' %}Eylül
-          {% when '10' %}Ekim
-          {% when '11' %}Kasım
-          {% when '12' %}Aralık
-        {% endcase %} 
-        {{ page.date | date: "%Y" }}
-         tarihinde {{ page.author }} tarafından yayınlandı.
-         <br/>
-         {% if page.tags %}
-        <span class="glyphicon glyphicon-tags post-tag" title="Etiketler"></span>  {% include post-tags.html %}
-        {% endif %}
-        {% if page.categories %}
-        <span class="glyphicon glyphicon-folder-open post-tag" title="Kategori"></span>  {{ page.categories | join: ", " }}
-        {% endif %}
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <div class="post">
+    <header class="header-post">
+          <div class="post-heading">
+            {% if page.image and page.image != "" %}
+              <div class="featuredImg" style="background-image: url('{{ page.image | prepend: site.baseurl | replace: '//', '/' }}')"></div>
+            {% endif %} 
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <h2 class="post-subheading">{{ page.subtitle }}</h2>
+            {% endif %}
+            <span class="post-meta">{{ page.date | date: "%-d" }} 
+            {% assign m = page.date | date: "%m" %}
+            {% case m %}
+              {% when '01' %}Ocak
+              {% when '02' %}Şubat
+              {% when '03' %}Mart
+              {% when '04' %}Nisan
+              {% when '05' %}Mayıs
+              {% when '06' %}Haziran
+              {% when '07' %}Temmuz
+              {% when '08' %}Ağustos
+              {% when '09' %}Eylül
+              {% when '10' %}Ekim
+              {% when '11' %}Kasım
+              {% when '12' %}Aralık
+            {% endcase %} 
+            {{ page.date | date: "%Y" }}
+            tarihinde {{ page.author }} tarafından yayınlandı.
+            <br/>
+            {% if page.tags %}
+            <span class="glyphicon glyphicon-tags post-tag" title="Etiketler"></span>  {% include post-tags.html %}
+            {% endif %}
+            {% if page.categories %}
+            <span class="glyphicon glyphicon-folder-open post-tag" title="Kategori"></span>  {{ page.categories | join: ", " }}
+            {% endif %}
 
-         </span>
-      </div>
-     </div>
+            </span>
+          </div>
+    </header>
+
+    <article>
+        {{ content }}
+        <br/>
+        <div style="float:right;">
+          <div class="socialPanel">
+            <div class="fb-like" data-href="https://www.facebook.com/{{site.author.facebook}}" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+          </div>
+          <div class="socialPanel">
+            <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button_count" data-size="small" data-mobile-iframe="true"></div>
+          </div>
+          <div class="socialPanel"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: tr_TR</script><script type="IN/Share" data-url="{{site.url}}{{page.url}}" data-counter="right"></script></div>
+        </div>
+    </article>
+
+    </div>
   </div>
-</header>
-
-<article>
-  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-	  {{ content }}
-	  <br/>
-	  <div style="float:right;">
-	  	<div style="float:left;width:100px;">
-        <div class="fb-like" data-href="https://www.facebook.com/{{site.author.facebook}}" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-      </div>
-      <div style="float:left;width:100px;">
-        <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button_count" data-size="small" data-mobile-iframe="true"></div>
-	  	</div>
-	  	<div style="float:left;width:100px;"><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: tr_TR</script><script type="IN/Share" data-url="{{site.url}}{{page.url}}" data-counter="right"></script></div>
-	  </div>
-	</div>
-  </div>
-</article>
-
 </div>
-
 {% if page.author %}
 <div class="footer-post">
   <div class="row post-author-row">
