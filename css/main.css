@@ -235,3 +235,11 @@ header.header-post .post-heading .post-subheading {
 .post-tags {
   text-align: right;
 }
+
+tr{
+  border-bottom: 1px solid #bbb;
+}
+
+table{
+  margin-bottom: 20px;
+}
