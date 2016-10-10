@@ -8,7 +8,7 @@ tags:
   - blog
   - software
   - developer
-published: true
+published: false
 subtitle: Yazılımcı bloglarının güncel listesi 
 ---
 
