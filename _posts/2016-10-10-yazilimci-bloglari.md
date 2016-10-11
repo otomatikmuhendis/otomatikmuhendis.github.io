@@ -8,15 +8,15 @@ tags:
   - blog
   - software
   - developer
-published: false
+published: true
 subtitle: Yazılımcı bloglarının güncel listesi 
 ---
 
-[Sindre Sorhus’ blog](https://blog.sindresorhus.com/) -  [Yeoman](http://yeoman.io/) ve [TodoMVC](http://todomvc.com/)'nin geliştiricisi
+[Sindre Sorhus’ blog](https://blog.sindresorhus.com/) - [Yeoman](http://yeoman.io/) ve [TodoMVC](http://todomvc.com/)'nin geliştiricisi
 
 [Mike Mengell](http://mikemengell.com/)
 
-[Brett Slatkin](http://www.onebigfluke.com/)- Tavsiye yazısı: [What's awful about being a {software engineer, tech lead, manager}?](http://www.onebigfluke.com/2016/04/whats-awful-building-software.html)
+[Brett Slatkin](http://www.onebigfluke.com/) - Tavsiye yazısı: [What's awful about being a {software engineer, tech lead, manager}?](http://www.onebigfluke.com/2016/04/whats-awful-building-software.html)
 
 [StrathWeb by Filip W.](http://www.strathweb.com/)
 
