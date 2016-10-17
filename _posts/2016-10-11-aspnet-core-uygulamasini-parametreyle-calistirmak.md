@@ -7,6 +7,7 @@ en: /2016/10/11/run-aspnet-core-application-commandline-arguments/
 tags: 
   - aspnet core
   - commandline
+  - dotnet
 published: true 
 ---
 

@@ -281,4 +281,4 @@ public class hardwareDatabase {
 }
 {% endhighlight %}
 
-Bir dahaki fonksiyonel test yazımızda Assertion kullanımını göreceğiz. JUnit Assert methodları ile sayfa içeriğinde yazılanlar bekletilerimizi karşılıyor mu bunun uygulamasını yapacağız.
+Bir dahaki fonksiyonel test yazımızda Assertion kullanımını göreceğiz. JUnit Assert methodları ile sayfa içeriğinde yazılanlar beklentilerimizi karşılıyor mu bunun uygulamasını yapacağız.

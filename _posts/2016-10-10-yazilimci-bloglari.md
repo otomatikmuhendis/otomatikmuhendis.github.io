@@ -47,3 +47,5 @@ subtitle: Yazılımcı bloglarının güncel listesi
 [Turan Yunus](http://www.turanyunus.com/)
 
 [Software Test Academy](http://www.swtestacademy.com/)
+
+Bu listeye katkıda bulunmak için [otomatikmuhendis.github.io](https://github.com/otomatikmuhendis/otomatikmuhendis.github.io) reposuna Pull Request gönderebilirsiniz.
