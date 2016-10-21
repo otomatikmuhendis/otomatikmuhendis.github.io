@@ -30,6 +30,16 @@ Aşağıdaki tabloda [NUnit](https://github.com/nunit/docs/wiki/Attributes), [MS
 
 xUnit diğerlerinden farklı olarak Attribute veya Annotation kullanmak yerine kalıtımın getirdiği methodları kullanmayı tercih etmiştir.
 
-Testlerde Category kullanımı best practice olarak geçmektedir. Daha sonra kullanacağınız bir Continuous Integration aracında testlerinizi kategorilerine göre çalıştırabilirsiniz.
+Testlerde Category kullanımı best practice olarak geçmektedir. Test runner aracınızda kategorilere göre görüntüleyebilir veya bir Continuous Integration aracında testlerinizi kategorilerine göre çalıştırabilirsiniz.
 
-Geçici olarak çalıştırmak istemediğiniz test caselerinizde, Ignore kullanabilirsiniz. Ignore kullanmak yerine test tanımını silerseniz bir daha asla o testi bulamayabilirsiniz. Ignore olarak işaretlenen methodlar test runner aracınızda verdiğiniz mesajla görüntülenir.
+Geçici olarak çalıştırmak istemediğiniz test caselerinizde, Ignore kullanabilirsiniz. Ignore kullanmak yerine test tanımının silinmesi halinde bir daha asla o testi bulamayabilirsiniz. Ignore olarak işaretlenen methodlar test runner aracınızda veya test raporunuzda verdiğiniz mesajla görüntülenir.
+
+<span class="responsiveImg">
+[![testingIgnore.png]({{site.baseurl}}/img/testingIgnore.png)]({{site.baseurl}}/img/testingIgnore.png)
+</span>
+*Test Explorer üzerinde görünümü*
+
+<span class="responsiveImg">
+[![testingIgnoreJenkins.png]({{site.baseurl}}/img/testingIgnoreJenkins.png)]({{site.baseurl}}/img/testingIgnoreJenkins.png)
+</span>
+*Jenkins CI test raporunda görünümü*
