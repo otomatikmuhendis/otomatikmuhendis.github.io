@@ -22,7 +22,7 @@ Desteler;
 - HTTP Verbs & Status Codes
 - Git Commands
 
-<!-- more -->
+<!--more-->
 
 ![tinycardsM.jpg]({{site.baseurl}}/img/tinycardsM.jpg)
 
