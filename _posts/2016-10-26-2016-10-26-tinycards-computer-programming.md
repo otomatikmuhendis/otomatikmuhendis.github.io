@@ -22,6 +22,8 @@ Desteler;
 - HTTP Verbs & Status Codes
 - Git Commands
 
+<!-- more -->
+
 ![tinycardsM.jpg]({{site.baseurl}}/img/tinycardsM.jpg)
 
 [Memrise](https://www.memrise.com/) gibi benzerlerinin aksine dil konusuna odaklanıp diğer konuları göz ardı etmemiş. Memrise'da da diğer konular var ama fazla göz önünde bulundurulmuyor.
