@@ -3,7 +3,7 @@ author: Olcay Bayram
 layout: post
 categories: Yazılım
 published: true
-title: Türkiye'de Hackathonlar - Vol 2
+title: Türkiye'de Hackathonlar - Bölüm 2
 image: /img/keytorc_hackathon.jpg
 tags:
   - hackathon
