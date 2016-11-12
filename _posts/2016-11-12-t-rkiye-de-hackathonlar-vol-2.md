@@ -4,7 +4,7 @@ layout: post
 categories: Yazılım
 published: true
 title: Türkiye'de Hackathonlar - Bölüm 2
-image: /img/keytorc_hackathon.jpg
+image: /img/keytorc_hackathon_title.jpg
 tags:
   - hackathon
   - testing
@@ -15,7 +15,7 @@ Daha önce [Türkiye'de Hackathonlar](http://otomatikmuhendis.com/2016/04/22/tur
 ## [Keytorc Hackathon: Test Otomasyonu](http://www.keytorc.com/hackathon-test-otomasyonu/)
 Türkiye'nin ilk test otomasyonu konulu hackathonu 9 Kasım 2016 tarihinde gerçekleşti. Genelde bu tür etkinliklerin haftasonu 2 günü kapsayacak şekilde olmasına alıştığımız için bu etkinliğin çarşamba günü ve sadece 1 gün içerisinde gerçekleşmesi şaşırtıcıydı. Takımlara çeşitli senaryolar verildi ve test otomasyonu yapılması için süre tanındı. Senaryoları başarıyla tamamlayan takım olmadığı için sıralama juri puanıyla belirlendi.
 
-[![keytorc_hackathon_small.jpg]({{site.baseurl}}/img/keytorc_hackathon_small.jpg)]({{site.baseurl}}/img/keytorc_hackathon_title.jpg)
+[![keytorc_hackathon_small.jpg]({{site.baseurl}}/img/keytorc_hackathon_small.jpg)]({{site.baseurl}}/img/keytorc_hackathon.jpg)
 
 - Teknolojiler: Selenium Webdriver
 - Konu: Test Otomasyonu
