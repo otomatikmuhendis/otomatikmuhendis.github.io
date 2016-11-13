@@ -11,7 +11,7 @@ tags:
   - http
   - rest
   - git
-en: /2016/10/26/2016-10-26-tinycards-computer-programming/
+en: /2016/10/26/tinycards-computer-programming/
 image: /img/tinycards_title.jpg
 ---
 [Luis von Ahn](https://www.ted.com/talks/luis_von_ahn_massive_scale_online_collaboration)'ın liderliğinde geliştirilen [Duolingo](https://www.duolingo.com)'nun ekibinden yeni bir mobil uygulama; [Tinycards](https://tinycards.duolingo.com/).
