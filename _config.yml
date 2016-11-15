@@ -142,7 +142,7 @@ prose:
           element: "text"
           label: "Image"
           help: "Featured image for index."
-          placeholder: "Image url."
+          placeholder: "/img/..."
           alterable: true
       - name: "categories"
         field:
@@ -156,6 +156,8 @@ prose:
               value: 'Yazılım'
             - name: 'IDE Tips'
               value: 'IDE Tips'
+            - name: 'Test'
+              value: 'test'
       - name: "tags"
         field:
           element: "multiselect"
