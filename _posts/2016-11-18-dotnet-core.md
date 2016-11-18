@@ -3,7 +3,7 @@ author: Olcay Bayram
 layout: post
 categories: Yazılım
 published: true
-title: dotnet core
+title: .NET Core
 tags:
   - dotnet
   - .NET Foundation
