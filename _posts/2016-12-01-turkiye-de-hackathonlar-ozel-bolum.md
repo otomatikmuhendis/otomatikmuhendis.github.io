@@ -15,6 +15,8 @@ tags:
 ## [Java for Good - İstanbul Hackathon](http://javaforgood.com/)
 Son zamanlarda Türkiye'de ki çalışan sayısını arttırmasıyla ve aynı zamanda çalışmalarını uzak bağlantı üzerinden yürütmesiyle ilgi çeken Crossover firması; doğa, insanlık ve sokak hayvanları ile ilgili konularda hackathon etkinliği gerçekleştirecek. Taksim'de düzenlenecek olan etkinlik 10 Aralık 2016 Cumartesi günü sabah 9'da başlayacak ve 12 saat sürecek.
 
+<!--more-->
+
 Firma hackathonu yeni Java Chief Architect'lerini bulabilmek için düzenliyor, bu sebeple en az 10 yıl profesyonel Java geliştiriciliği deneyimi bulunan yazılımcılara açık. Bu durum hackathonun yazılı olmayan kurallarını çiğnemek gibi ama seçilen konuların diğer etkinliklerde hiç ele alınmadığı düşünüldüğünde ufak da olsa bir ilerlemedir diyebiliriz.
 
 Projenin ortakları arasında [Oracle](https://www.oracle.com), [HAYTAP](http://www.haytap.org/), [Türk Kızılayı](http://www.kizilay.org.tr/) ve [activebuilder](http://activebuilder.com/) bulunuyor.
