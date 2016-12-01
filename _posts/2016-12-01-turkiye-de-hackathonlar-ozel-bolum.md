@@ -3,7 +3,7 @@ author: Olcay Bayram
 layout: post
 categories: Yazılım
 published: true
-title: Turkiye'de Hackathonlar - Ozel Bolum
+title: Türkiye'de Hackathonlar - Özel Bölüm
 subtitle: İyilik için Java!
 image: /img/javaforgood.jpg
 tags:
