@@ -3,7 +3,7 @@ author: Olcay Bayram
 layout: post
 categories: Neler Yapıyorum?
 published: false
-title: ASP.NET Web API'de JSON Formatini Guzellestirmek
+title: ASP.NET Web API'de JSON Formatını Güzelleştirmek
 image: /img/JsonFormat.png
 ---
 ASP.NET Web API uygulamalarında oluşan JSON formatlı yanıtları bazen okumakta zorlanıyoruz ve bu yanıtları [JSONLint](http://jsonlint.com/) gibi sitelerle okunabilir hale getiriyoruz. Bunun önüne geçmek için API ayarlarında ufak bir düzenleme ile göze hitap eden sonuçlar elde edebiliriz.
