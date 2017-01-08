@@ -3,32 +3,42 @@ layout: default
 title: Archive
 ---
 
-<div>
+{% for post in site.posts  %}
+  {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+  {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+  {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+  {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
-  <h2>Archive</h2>
-
-  <section class="archive_list">
-    {% for category in site.categories %}
-
+  {% if forloop.first %}
+    <h1 id="year_{{this_year}}"><data data-icon="ei-calendar"></data> {{this_year}}</h1>
+    <section class="archive_list">
     <div class="category-name">
-      <h2>{{ category | first }}</h2>
+      <h2 id="month_{{this_year}}_{{this_month}}">{{this_month}}</h2>
     </div>
-    {% for post in category.last %}
+    
+  {% endif %}
 
-    <div class="post_title">
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
-      <span class="date">{{ post.date | date: "%-d %b, %Y" }}</span>
-    </div>
+  <div class="post_title">
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
+    <span class="date">{{ post.date | date: "%-d %b, %Y" }}</span>
+  </div>
 
-    {% endfor %}
-
-    {% endfor %}
-
-  </section>
-
-  <footer class="article-footer" mar>
-    {% include author.html %}
-  </footer>
-</div>
-
-
+  {% if forloop.last %}
+    </section>
+  {% else %}
+    {% if this_year != next_year %}
+      </section>
+      <h1 id="year_{{next_year}}"><data data-icon="ei-calendar"></data> {{next_year}}</h1>
+      <section class="archive_list">
+      <div class="category-name">
+        <h2 id="month_{{next_year}}_{{next_month}}">{{next_month}}</h2>
+      </div>
+    {% else %}    
+      {% if this_month != next_month %}
+        <div class="category-name">
+          <h2 id="month_{{next_year}}_{{next_month}}">{{next_month}}</h2>
+        </div>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
