@@ -5,7 +5,7 @@ layout: post
 permalink: /2015/12/04/karabasan-exe-online/
 image: "/img/bilgisayarim.png"
 categories:
-  - Neler Yapıyorum?
+  - Hobi
 tags:
   - archive.org
   - JavaScript

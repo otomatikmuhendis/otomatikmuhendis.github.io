@@ -4,7 +4,7 @@ author: Olcay Bayram
 layout: post
 permalink: /2015/07/05/chromeda-giflerin-yuklenirken-beyaz-videolarin-ise-siyah-gozukmesi-sorunu/
 categories:
-  - Sistem
+  - Hata
 tags:
   - beyaz
   - black

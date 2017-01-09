@@ -1,7 +1,7 @@
 ---
 author: Olcay Bayram
 layout: post
-categories: IDE Tips
+categories: IDE
 published: true
 title: Visual Studio'da Verimliliği Arttıracak Eklentiler
 subtitle: Visual Studio İpucları

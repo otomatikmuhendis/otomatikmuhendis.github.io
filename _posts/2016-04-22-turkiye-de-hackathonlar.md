@@ -3,7 +3,7 @@ author: Olcay Bayram
 layout: post
 subtitle: null
 image: /img/hackathon.png
-categories: Yazılım
+categories: Hackathon
 tags: 
   - hack
   - marathon

@@ -5,7 +5,7 @@ author: Olcay Bayram
 permalink: /2015/12/06/techciceksepeti/
 image: "/img/ciceksepeti-it-logo.jpg"
 categories: 
-  - "Neler Yapıyorum?"
+  - Hobi
 tags: 
   - github
   - jekyll

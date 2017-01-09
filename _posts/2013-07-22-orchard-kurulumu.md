@@ -4,8 +4,7 @@ author: Olcay Bayram
 layout: post
 permalink: /2013/07/22/orchard-kurulumu/
 categories:
-  - CMS
-  - Orchard
+  - Yazılım
 tags:
   - ASP.NET
   - CMS

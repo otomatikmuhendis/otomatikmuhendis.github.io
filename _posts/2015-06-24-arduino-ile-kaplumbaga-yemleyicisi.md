@@ -3,7 +3,7 @@ author: Olcay Bayram
 layout: post
 title: Arduino ile Kaplumbağa Yemleyicisi
 permalink: "/2015/06/24/arduino-ile-kaplumbaga-yemleyicisi/"
-categories: "neler-yapiyorum"
+categories: Hobi
 tags: 
   - arduino
   - arduino yazılım

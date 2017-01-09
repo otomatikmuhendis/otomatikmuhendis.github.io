@@ -3,7 +3,7 @@ author: Olcay Bayram
 layout: post
 title: Ex Machina
 permalink: "/2015/06/20/ex-machina/"
-categories: yazilim
+categories: Yazılım
 tags: 
   - ex machina
   - film

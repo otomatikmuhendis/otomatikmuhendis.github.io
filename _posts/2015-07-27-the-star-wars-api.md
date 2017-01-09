@@ -3,7 +3,7 @@ author: Olcay Bayram
 layout: post
 title: The Star Wars API
 permalink: "/2015/07/27/the-star-wars-api/"
-categories: "neler-yapiyorum"
+categories: Hobi
 tags: 
   - api
   - github

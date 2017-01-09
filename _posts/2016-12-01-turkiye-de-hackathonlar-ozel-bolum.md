@@ -1,7 +1,7 @@
 ---
 author: Olcay Bayram
 layout: post
-categories: Yazılım
+categories: Hackathon
 published: true
 title: Türkiye'de Hackathonlar - Özel Bölüm
 subtitle: İyilik için Java!

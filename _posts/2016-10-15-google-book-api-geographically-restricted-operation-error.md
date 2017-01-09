@@ -2,7 +2,7 @@
 author: Olcay Bayram
 layout: post
 title: Google Books API'den Konum Hatası
-categories: hata
+categories: Hata
 tags: 
   - google books
   - api

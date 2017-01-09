@@ -1,7 +1,7 @@
 ---
 author: Olcay Bayram
 layout: post
-categories: IDE Tips
+categories: IDE
 published: true
 title: ASP.NET MVC'de View'ların Derlenmesi
 image: /img/mvcbuildviews.png

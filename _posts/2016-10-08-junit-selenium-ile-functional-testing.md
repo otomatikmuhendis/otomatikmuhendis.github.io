@@ -2,7 +2,7 @@
 author: Olcay Bayram
 layout: post
 title: JUnit ve Selenium WebDriver ile Fonksiyonel Test
-categories: test
+categories: Testing
 tags: 
   - junit
   - selenium

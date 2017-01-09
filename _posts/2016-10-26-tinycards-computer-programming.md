@@ -1,7 +1,7 @@
 ---
 author: Olcay Bayram
 layout: post
-categories: Neler Yapıyorum?
+categories: Hobi
 published: true
 title: Tinycards
 tags:

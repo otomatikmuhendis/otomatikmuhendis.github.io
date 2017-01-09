@@ -15,7 +15,9 @@ ASP.NET Web API uygulamalarında oluşan JSON formatlı yanıtları bazen okumak
 
 [Newtonsoft.Json](http://www.newtonsoft.com/json) kütüphanesinin yardımı ile WebApiConfig'e aşağıdaki ayarları uygularsak JSON response body'ler indented gözükecek ve property isimleri camelCase formatına çevrilecektir.
 
-{% highlight csharp linenos %}
+<!--more-->
+
+{% highlight csharp %}
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.Web.Http;
