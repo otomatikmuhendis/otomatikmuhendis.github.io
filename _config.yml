@@ -70,6 +70,8 @@ disqus_shortname: "otomatikmuhendis"
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-43894898-1"
 
+getsitecontrol: 67408
+
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
