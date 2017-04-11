@@ -3,7 +3,7 @@ author: Olcay Bayram
 layout: post
 categories: Yazılım
 published: true
-title: Hackathon - 2002’den 2017’ye Turkiye’de Guc Konsolidasyonu
+title: Hackathon - 2002’den 2017’ye Türkiye’de Güç Konsolidasyonu
 image: /img/hackathonGraph.png
 tags:
   - hackathon
