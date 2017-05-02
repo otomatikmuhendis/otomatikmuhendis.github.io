@@ -3,9 +3,10 @@ author: Olcay Bayram
 layout: post
 categories: Yazılım
 published: true
-title: C Sharp 7 ile Gelen Yeni Yetenekler
+title: 'C# 7'
 tags:
   - 'C#'
+subtitle: Yeni Yetenekler
 ---
 C# 7 ile birlikte programlama diline katılan yeni yetenekler;
 
