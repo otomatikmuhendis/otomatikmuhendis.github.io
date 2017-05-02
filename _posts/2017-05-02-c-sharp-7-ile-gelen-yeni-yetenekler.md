@@ -3,10 +3,9 @@ author: Olcay Bayram
 layout: post
 categories: Yazılım
 published: true
-title: 'C# 7'
+title: 'C# 7 ile Gelen Yeni Yetenekler'
 tags:
   - 'C#'
-subtitle: Yeni Yetenekler
 ---
 C# 7 ile birlikte programlama diline katılan yeni yetenekler;
 
@@ -21,7 +20,7 @@ Constant veya Type pattern ile koşul yazılabilir hatta `out` anahtarında oldu
 
 ### Switch statements
 Artık switch case koşullarında eşitlikten daha fazlası istenebiliyor. Koşullar için `when` kelimesi kullanılıyor.
-
+<!-- more -->
 ### Tuples
 Bu özellik için öncellikle `System.ValueTuple` referansı eklenmesi gerekiyor. Fonksiyonun dönüş parametreleri Tuples olarak tanımlandığında, isimli ise isimleriyle, isimsiz ise Item1, Item2 vb. isimlerle ile erişilebilir. Diğerlerinde olduğu gibi yine satır içi değişken tanımlaması yapılarak veya yerel değişkenlere atanarak Tuples yok edilebilir.
 
