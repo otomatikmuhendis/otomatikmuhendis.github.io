@@ -6,6 +6,8 @@ published: true
 title: 'C# 7.0 ile Gelen Yeni Yetenekler'
 tags:
   - 'C#'
+en: /2017/05/03/new-features-in-c-7-0-in-one-file/
+image: /img/c-sharp-logo.png
 ---
 C# 7.0 ile programlama diline; veri yönetimine, kod sadeleştirmeye ve performansa yönelik yeni yetenekler katıldı. Bunlardan en önemlileri çoklu sonuç döndürmemizi sağlayan _tuples_ ve verinin şekillendirilmesini kolaylaştıran _pattern matching_. Daha temiz ve verimli kodlar yazmamız artık daha kolay.
 
