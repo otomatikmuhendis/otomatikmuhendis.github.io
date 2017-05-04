@@ -3,7 +3,7 @@ author: Olcay Bayram
 layout: post
 categories: Yazılım
 published: true
-title: Deutschland 83 Sifreli Disket
+title: Deutschland 83 Şifreli Disket
 image: /img/deutschland_83_matris.png
 tags:
   - film
