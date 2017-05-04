@@ -7,6 +7,7 @@ title: Deutschland 83 Şifreli Disket
 image: /img/deutschland_83_matris.png
 tags:
   - film
+en: /2017/05/04/deutschland-83-encoded-floppy-disc/
 ---
 [Deutschland 83](http://www.sundance.tv/series/deutschland-83) dizisinde (diziyi bilmeyenler için kısaca konusu; 1983 yılı Doğu ve Batı Almanya arasındaki casusluk diyebiliriz) ilk sezonun “Atlantic Lion” adı verilen 3. bölümünde, ele geçirilen disketin Doğu Almanya teknolojisi ile okunmaya çalışılması konu edilmiş.
 
