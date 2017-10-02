@@ -4,16 +4,16 @@ layout: post
 title: Test Attribute ve Annotation'ları
 en: /2016/10/09/test-framework-attribute-annotation/
 categories: Testing
-tags: 
+tags:
   - test
   - nunit
   - xunit
   - mstest
   - junit
 published: true
-subtitle: Çeşitli test frameworklerinde sıklıkla kullanılan Attribute ve Annotation'lar 
+subtitle: Çeşitli test frameworklerinde sıklıkla kullanılan Attribute ve Annotation'lar
 ---
-Aşağıdaki tabloda [NUnit](https://github.com/nunit/docs/wiki/Attributes), [MSTest](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.testtools.unittesting.classinitializeattribute(v=vs.140).aspx), [xUnit.net](https://xunit.github.io/) ve [JUnit](https://www.tutorialspoint.com/junit/junit_using_assertion.htm) test frameworklerinde sıklıkla kullandığımız Attribute ve Annotation'ları açıklamarıyla birlikte görebilirsiniz.
+Aşağıdaki tabloda [NUnit](https://github.com/nunit/docs/wiki/Attributes), [MSTest](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.testtools.unittesting.classinitializeattribute(v=vs.140).aspx), [xUnit.net](https://xunit.github.io/) ve JUnit ([tutorialspoint](https://www.tutorialspoint.com/junit/junit_using_assertion.htm) ve [Guru99](https://www.guru99.com/junit-annotations-api.html)) test frameworklerinde sıklıkla kullandığımız Attribute ve Annotation'ları açıklamarıyla birlikte görebilirsiniz.
 
 |NUnit|MSTest|xUnit.net|JUnit|Açıklama|
 |---|---|---|---|---|
