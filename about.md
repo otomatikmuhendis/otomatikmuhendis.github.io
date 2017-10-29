@@ -3,6 +3,7 @@ layout: page
 title: Hakkında
 permalink: /about/
 published: true
+en: /about/
 ---
 
 Bilişim sektöründe çalışan biri olarak çalışmalarım sırasında karşılaştığım sorunları ve bulduğum çözümleri, çeşitli uygulama yöntemlerini burada paylaşmayı düşünüyorum. İçerikler çeşitli programlama dillerinde olacak. Yazılım için bir programlama dilinde uzmanlaşılması ama diğer dillerde de bilgi sahibi olunması gerektiğine inanıyorum. Değişik teknolojiler üzerine tecrübelerimi hem aktarmak hem de kendime not tutmak istiyorum.
@@ -13,11 +14,11 @@ Bu arada evet sitenin ismi konusunda Otomatik Portakal filminden esinlenilmişti
 
 ### Profillerim
 
+* [LinkedIn]
 * [HackerRank]
-* [SoloLearn]
 
 [HackerRank]: https://www.hackerrank.com/olcay
-[SoloLearn]: http://www.sololearn.com/Profile/611681
+[LinkedIn]: https://www.linkedin.com/in/olcaybayram
 
 
 ### İletişim
