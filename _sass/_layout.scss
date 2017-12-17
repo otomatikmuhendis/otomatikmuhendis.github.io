@@ -39,6 +39,10 @@ body {
   }
 }
 
+.site_title {
+  font-size: 7.1rem;
+  font-weight: 600;
+}
 
 /* Effects
 —————————————————————————————————————————————————— */
@@ -280,7 +284,7 @@ p.readmore {
 
 }
 
-.artilce_header img {
+.artilce_header img, .post_header img {
   margin-bottom: 20px;
 }
 
