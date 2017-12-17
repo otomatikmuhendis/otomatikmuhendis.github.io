@@ -8,7 +8,8 @@ tags:
   - test
   - nunit
   - integration
-  - c#
+  - 'c#'
+en: /2017/12/17/isolating-integration-test-data/
 ---
 Entegrasyon testlerini yazarken yapmamız gereken ama canlı veritabanında çalışmadıkça aksattığımız o minik konu (veritabanını bulduğumuz gibi bırakmak) var ya işte bu yazıda onun kolay yolundan bahsedeceğiz.
 
@@ -25,7 +26,7 @@ using NUnit.Framework;
 using System;
 using System.Transactions;
 
-namespace GigHub.IntegrationTests
+namespace OtomatikMuhendis.IntegrationTests
 {
   public class Isolated : Attribute, ITestAction
   {
@@ -53,6 +54,6 @@ namespace GigHub.IntegrationTests
 
 {% highlight csharp %}
 [Test, Isolated]
-public void Update_WhenCalled_ShouldUpdateTheGivenGig()
+public void Update_WhenCalled_ShouldUpdateTheGivenItem()
 { /* ... */ }
 {% endhighlight %}
