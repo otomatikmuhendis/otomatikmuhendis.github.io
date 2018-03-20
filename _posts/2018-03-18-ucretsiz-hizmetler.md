@@ -28,7 +28,7 @@ https://education.github.com/pack adresinden ulaşabileceğiniz paket, şu ana k
 ### Microsoft Imagine (eskiden Dreamspark)
 
 https://imagine.microsoft.com/en-us/catalog adresinde sunulan ürünlerin katologunu görebilirsiniz. Eğitimden yazılımlara, veri tabanlarından işletim sistemlerine kadar bir çok hizmeti sağlamakta. Bu ürünler genelde Microsoft'un kendi ürünleri.
-
+<!--more-->
 ### JetBrains
 
 https://www.jetbrains.com/student/ sayfasından başvurarak JetBrains'in tüm ürünlerinde geçerli bir sertifika edinebilirsiniz. Her ürünü yazılım geliştirmeyi ayrı kolaylaştırıyor.
