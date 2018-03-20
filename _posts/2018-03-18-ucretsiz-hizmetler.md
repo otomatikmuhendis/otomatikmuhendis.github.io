@@ -3,7 +3,7 @@ author: Olcay Bayram
 layout: post
 categories: Yazılım
 published: true
-title: Ucretsiz Hizmetler
+title: Ücretsiz Hizmetler
 subtitle: Yazılım geliştiriciler için ücretsiz hizmet veren siteler
 tags:
   - javascript
