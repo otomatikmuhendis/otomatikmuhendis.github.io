@@ -12,6 +12,7 @@ tags:
   - heroku
   - jetbrains
 image: /img/tirza-van-dijk-58298-unsplash.jpg
+en: /2018/03/21/freebies-for-developers/
 ---
 Bir Sümer atasözü ile yazıya başlamak istiyorum.
 
@@ -48,6 +49,3 @@ Eğer Github üzerinde minik de olsa bir JavaScript projeniz varsa https://js.or
 Ben bu listeyi güncel tutmaya çalışacağım. Aklınızda varsa lütfen siz de ekleyin.
 
 Fotoğraf; Photo by [Tirza van Dijk](https://unsplash.com/photos/I8OhOu-wLO4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
-
-
-
