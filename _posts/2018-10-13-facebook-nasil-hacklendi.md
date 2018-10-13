@@ -4,7 +4,7 @@ layout: post
 categories: Yazılım
 published: true
 title: Facebook Nasıl Hacklendi?
-image: /img/FacebookLDataLek.PNG
+image: /img/FacebookLDataLek1.png
 tags:
   - security
 subtitle: 2018 Eylül
@@ -28,3 +28,4 @@ Sosyal medya devi Facebook, 2018 yılının Eylül ayında, son bir senedir kull
 
 Facebook aslında yakın zamanda bu bilgileri istekli olarak paylaştığını da kabul etmişti ama yine bizim kullanıcı olarak yapmamız gereken [Facebook Güvenlik Ayarları](https://www.facebook.com/settings?tab=security)mızı düzenli olarak kontrol etmek ve neyi kiminle paylaştığımıza dikkat etmektir.
 
+![FacebookLDataLek.PNG]({{site.baseurl}}/img/FacebookLDataLek.PNG)
