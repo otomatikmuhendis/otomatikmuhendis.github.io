@@ -3,7 +3,7 @@ author: Olcay Bayram
 layout: post
 categories: Yazılım
 published: true
-title: Facebook Nasil Hacklendi?
+title: Facebook Nasıl Hacklendi?
 image: /img/FacebookLDataLek.PNG
 tags:
   - security
