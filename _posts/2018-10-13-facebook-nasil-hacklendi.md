@@ -17,6 +17,8 @@ Sosyal medya devi Facebook, 2018 yılının Eylül ayında, son bir senedir kull
 
 - 2017 yılı Haziran ayında yayınlanan bir güncellemede Facebook'da paylaşımlarımızı yazdığımız kutuda, yeni bir video yükleyici kullanılmaya başlandı.
 İkinci adım için şunu bilmeliyiz; Facebook'un sunduğu "Başkası Gibi Görüntüle" özelliği, profilinizi başkalarının gözünden görmenizi sağlayan, bilgilerinizin kişilere göre ne kadarının açık ne kadarının gizli olduğunu anlamanızı sağlayan kullanışlı bir özelliktir. Şu an erişip ekran görüntüsü almak istedim ama yerinde yoktu. Sanırım durumu düzeltmekten kasıtları bu özelliği tamamı ile kapatmakmış.
+<!--more-->
+
 - Başkası adına profilinizi görüntülediğinizde, profilinizin işlevsiz olması beklenir çünkü bir işlem yaptığınızda kimin adına yaptığınız kafa karıştırıcıdır. Ama gel gör ki bu yeni video yükleyici işlevselliğini korumaktadır ve yüklediğiniz videolar o sırada adına profilinizi görüntülediğiniz kişi tarafından yüklenmiş gibi sisteme kayıt edilir.
 - Bunu sağlamak için de tembel programcının hatası otomatik giriş mekanizması devreye girer. Hackerlara kalan ise bunu taklit etmektir.
 
