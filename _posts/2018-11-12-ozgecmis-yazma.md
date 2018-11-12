@@ -2,8 +2,8 @@
 author: Olcay Bayram
 layout: post
 categories: Neler Yapıyorum?
-published: false
-title: Ozgecmis Yazma
+published: true
+title: 'Özgeçmişini Yanlış Yazıyorsun, Yazma'
 tags:
   - cv
   - ik
