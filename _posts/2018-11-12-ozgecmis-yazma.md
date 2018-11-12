@@ -11,6 +11,8 @@ tags:
 ---
 _Bu yazıda özgeçmiş kelimesini, curriculum vitae (CV) ve résumé kelimeleri ile aynı anlamda kullanıyorum._
 
+![cv-file.jpg]({{site.baseurl}}/img/cv-file.jpg)
+
 İşim gereği birçok özgeçmiş inceledim. Genelde teknik içeriğe odaklanmama rağmen İnsan Kaynakları çalışanlarının özgeçmişe nasıl baktıklarını ve nelere göre elediklerini de gözlemlemiş oldum.
 Bana göre içeriğinden başka hiçbir şeyin önemi yok ama benim gibi teknik personelin önüne gelinceye kadar bazı genel geçer mazeretlerle özgeçmişlerin elenmesi gerekiyor. Bu yazıda bunları madde madde işleyerek özgeçmişimizin doğru kişiye ulaşmasını nasıl sağlarız sorusuna yanıt arayacağız.
 
