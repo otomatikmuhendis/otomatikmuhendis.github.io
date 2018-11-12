@@ -21,11 +21,10 @@ Hazır kalıp özgeçmişler başlı başına özensizlik işaretçisi hele bir 
 
 ## Başlık
 Önemli olan, şirketlerin sizi nasıl tanımladığından daha çok sizin kendinizi nasıl tanımladığınızdır. Bunu tek satırlık bir başlıkla isminizin hemen altına yazabilirsiniz. Bu en son çalıştığınız pozisyon da olabilir, olmak istediğiniz yer veya istediğiniz teknoloji de olabilir.
+<!--more-->
 
 ## Sayfa Sayısı
 Bu konuda çok fazla tartışma var. [Yahoo’nun CEO’sunun CV’si](https://www.businessinsider.com/a-sample-resume-for-marissa-mayer-2016-7?international=true&r=US&IR=T) bile sadece 1 sayfaymış da senin ki nasıl 5 sayfa olurmuş. Ben detaylı özgeçmişleri seviyorum. Bu yüzden iki formatta oluşturabilirsiniz. Bir tanesi başvurularda hızla göz atılabilecek ve detaylısının varlığından haberdar eden kısa bir özgeçmiş. İkincisi ise, her iş tecrübesinin altında bir iki paragrafla detaylandırılmış olarak, işe alım sürecinin ilerleyen aşamalarında paylaşılacak şekilde bulundurulabilir.
-
-<!--more-->
 
 ## Kapak Yazısı
 Bunu gerçekten samimi bir dille yazın. Şirketi araştırın, kendinizi tanıyın ve tanıtın, şirkete yapacağınız katkıyı söyleyin. Kısaca her şirkete özel, ayrı bir tane yazmalısınız. Aynı yazı farklı şirketlere uymayacaktır.
