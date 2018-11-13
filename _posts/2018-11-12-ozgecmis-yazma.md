@@ -17,7 +17,7 @@ _Bu yazıda özgeçmiş kelimesini, curriculum vitae (CV) ve résumé kelimeleri
 Bana göre içeriğinden başka hiçbir şeyin önemi yok ama benim gibi teknik personelin önüne gelinceye kadar bazı genel geçer mazeretlerle özgeçmişlerin elenmesi gerekiyor. Bu yazıda bunları madde madde işleyerek özgeçmişimizin doğru kişiye ulaşmasını nasıl sağlarız sorusuna yanıt arayacağız.
 
 ## Kalıpları Yıkın
-Hazır kalıp özgeçmişler başlı başına özensizlik işaretçisi hele bir de bir web sitesinin otomatik aracı ile oluşturulmuşsa ve bir yerlerinde o sitenin adresi bulunuyorsa durum sevimsiz bir hal alıyor. Özgeçmiş kadar basit bir şey için bile otomatik araç kullanmak nedir. Bunu sağlayan internet sitelerinden birinde çalışmış biri olarak, bu araçların güzel sonuçlar üretmediğini söyleyebilirim. PDF dosyasının boyutunu düşürmek için Türkçe’ye özgü karakterleri asimile edenlere selam olsun.
+Hazır kalıp özgeçmişler başlı başına özensizlik işaretçisi hele bir de bir web sitesinin otomatik aracı ile oluşturulmuşsa ve bir yerlerinde o sitenin adresi bulunuyorsa durum sevimsiz bir hal alıyor. Özgeçmiş kadar basit bir şey için bile otomatik araç kullanmak nedir. Bunu sağlayan internet sitelerinden birinde çalışmış biri olarak, bu araçların güzel sonuçlar üretmediğini söyleyebilirim. PDF dosyasının boyutunu düşürmek için Türkçe’ye özgü karakterleri asimile eden [Burak Tungut](http://www.buraktungut.com/)'a selam olsun.
 
 ## Başlık
 Önemli olan, şirketlerin sizi nasıl tanımladığından daha çok sizin kendinizi nasıl tanımladığınızdır. Bunu tek satırlık bir başlıkla isminizin hemen altına yazabilirsiniz. Bu en son çalıştığınız pozisyon da olabilir, olmak istediğiniz yer veya istediğiniz teknoloji de olabilir.
