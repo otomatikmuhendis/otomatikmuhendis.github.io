@@ -3,7 +3,7 @@ author: Olcay Bayram
 layout: post
 categories: Neler Yapıyorum?
 published: true
-title: Evde arcade makinasi yapalim
+title: Evde arcade makinası yapalım
 tags:
   - raspberrypi
   - arcade
