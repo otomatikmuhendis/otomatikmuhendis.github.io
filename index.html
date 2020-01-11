@@ -10,14 +10,14 @@ subtitle: makineleşmeyi hızlandıran site
 
     <article class="post_card post">
       <header class="post_header">
-          {% if post.image and post.image != "" %}
-            <img src="{{ post.image | prepend: site.baseurl | replace: '//', '/' }}"/>
-          {% endif %}
+        {% if post.image and post.image != "" %}
+        <img src="{{ post.image | prepend: site.baseurl | replace: '//', '/' }}" />
+        {% endif %}
         <h1 class="post_title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h1>
         {% if post.subtitle %}<h3>{{ post.subtitle }}</h3>{% endif %}
-        <time class="post_date">{{ post.date | date: "%-d" }} 
-        {% assign m = post.date | date: "%m" %}
-        {% case m %}
+        <time class="post_date">{{ post.date | date: "%-d" }}
+          {% assign m = post.date | date: "%m" %}
+          {% case m %}
           {% when '01' %}Ocak
           {% when '02' %}Şubat
           {% when '03' %}Mart
@@ -30,9 +30,9 @@ subtitle: makineleşmeyi hızlandıran site
           {% when '10' %}Ekim
           {% when '11' %}Kasım
           {% when '12' %}Aralık
-        {% endcase %} 
-        {{ post.date | date: "%Y" }}, {% assign w = post.date | date: "%A" %}
-        {% case w %}
+          {% endcase %}
+          {{ post.date | date: "%Y" }}, {% assign w = post.date | date: "%A" %}
+          {% case w %}
           {% when 'Sunday' %}Pazar
           {% when 'Monday' %}Pazartesi
           {% when 'Tuesday' %}Salı
@@ -40,7 +40,7 @@ subtitle: makineleşmeyi hızlandıran site
           {% when 'Thursday' %}Perşembe
           {% when 'Friday' %}Cuma
           {% when 'Saturday' %}Cumartesi
-        {% endcase %}</time>
+          {% endcase %}</time>
       </header>
       <div class="post_excerpt">
         <p>
@@ -48,57 +48,36 @@ subtitle: makineleşmeyi hızlandıran site
           {{ post.description}}
           {% else %}
           {{ post.excerpt }}
-          {% endif %} 
-          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> Okumaya devam »  </a>
-        </p> 
+          {% endif %}
+          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> Okumaya devam » </a>
+        </p>
       </div>
       <footer class="post_meta">
-
-
         {% if post.location %}
         <span class="author-location">
           <div data-icon="ei-location"></div>
-          <a href=https://www.google.com/maps/place/{{post.location}}">{{ post.location }}</a>
+          <a href="https://www.google.com/maps/place/{{post.location}}">{{ post.location }} </a>
         </span>
         {% endif %}
-        <!--
-        {% for category in post.categories %}
-        <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
-          <data data-icon="ei-archive"></data>
-          {{category}}</a>
-        {% endfor %}
-        
-
-        
-        {% if post.author %}
-        <span class="author_meta">
-          <img src="{{site.baseurl}}/img/authors/{{post.author}}.jpg"></img>
-          <span>Olcay Bayram</span>
-        </span>
-        {% endif %}
-        -->
-
-
-        <!--<p class="readmore">
-          <a href=""><data data-icon="ei-arrow-right"></data>Read this article  </a>
-        </p>-->
       </footer>
-      <hr/>
+      <hr />
     </article>
     {% endfor %}
     {% if paginator.total_pages > 1 %}
-      
-      {% if paginator.next_page %}
-      <div class="pagination older-post">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><data data-icon="ei-arrow-right"></data> Eski Yazılar  </a>
-      </div>
-      {% endif %}
-      {% if paginator.previous_page %}
-        <div class="pagination newer-post">
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">  Yeni Yazılar <data data-icon="ei-arrow-left"></data></a>
-        </div>
-      {% endif %}
-        
-      {% endif %}
+
+    {% if paginator.next_page %}
+    <div class="pagination older-post">
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"><data
+          data-icon="ei-arrow-right"></data> Eski Yazılar </a>
+    </div>
+    {% endif %}
+    {% if paginator.previous_page %}
+    <div class="pagination newer-post">
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> Yeni Yazılar <data
+          data-icon="ei-arrow-left"></data></a>
+    </div>
+    {% endif %}
+
+    {% endif %}
   </div>
 </div>

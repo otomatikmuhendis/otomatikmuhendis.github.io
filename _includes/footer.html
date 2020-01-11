@@ -2,59 +2,49 @@
   <div class="container">
     <div class="footer left column two-thirds">
       <section class="small-font">
-        
-		  
-		  {% if site.url-pretty %}
+        {% if site.url-pretty %}
         <a href="{{ site.url }}">{{ site.url-pretty }}</a>
-      {% endif %} içeriği <a href="{{ site.author.website }}">{{ site.author.name }}</a> tarafından {% if page.date %}
+        {% endif %} içeriği <a href="{{ site.author.website }}">{{ site.author.name }}</a> tarafından {% if page.date %}
         {{ page.date | date: '%Y' }}
-      {% else %}
+        {% else %}
         {{ site.time | date: '%Y' }}
-      {% endif %} senesinde oluşturuldu.
-		  <br/>
-        <a href="https://github.com/wild-flame/jekyll-simple">Simple</a> teması kullanılarak <a href="http://jekyllrb.com/">Jekyll</a> tarafından üretilmiştir. <a href="https://github.com/otomatikmuhendis/otomatikmuhendis.github.io/">GitHub</a> üzerinde barındırılmaktadır.
+        {% endif %} senesinde oluşturuldu.
+        <br />
+        <a href="https://github.com/wild-flame/jekyll-simple">Simple</a> teması kullanılarak <a
+          href="http://jekyllrb.com/">Jekyll</a> tarafından üretilmiştir. <a
+          href="https://github.com/otomatikmuhendis/otomatikmuhendis.github.io/">GitHub</a> üzerinde barındırılmaktadır.
       </section>
     </div>
-
     <div class="footer right column one-third">
       <section class="small-font">
-        {% if site.author.github and site.footer-links-active.github %}
-        {% include icon-github.html username=site.author.github %}
-        {% endif %}
-        {% if site.author.twitter and site.footer-links-active.twitter %}
-        {% include icon-twitter.html username=site.author.twitter %}
-        {% endif %}
+        {% include social-media.html %}
       </section>
     </div>
   </div>
 </footer>
 
 {% if layout.common-ext-js %}
-  {% for js in layout.common-ext-js %}
-	<script src="{{ js }}"></script>
-  {% endfor %}
+{% for js in layout.common-ext-js %}
+<script src="{{ js }}"></script>
+{% endfor %}
 {% endif %}
 
 {% if layout.common-js %}
-  {% for js in layout.common-js %}
-	<script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
-  {% endfor %}
+{% for js in layout.common-js %}
+<script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+{% endfor %}
 {% endif %}
 
 {% if page.ext-js %}
-  {% for js in page.ext-js %}
-	<script src="{{ js }}"></script>
-  {% endfor %}
+{% for js in page.ext-js %}
+<script src="{{ js }}"></script>
+{% endfor %}
 {% endif %}
 
 {% if page.js %}
-  {% for js in page.js %}
-	<script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
-  {% endfor %}
+{% for js in page.js %}
+<script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+{% endfor %}
 {% endif %}
 
 {% include analytics.html %}
-
-{% include facebook.html %}
-
-{% include widgets.html %}
